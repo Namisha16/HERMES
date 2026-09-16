@@ -46,7 +46,7 @@ export const ContradictionSection: React.FC = () => {
   return (
     <div id="the-contradiction-section" className="space-y-10">
       <div className="text-center max-w-3xl mx-auto space-y-4">
-        <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center justify-center gap-2">
+        <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center justify-center gap-2 mb-3.5 sm:mb-4">
           <Sparkles className="w-3.5 h-3.5" />
           <span>Section 17 • The Central Paradox</span>
         </span>

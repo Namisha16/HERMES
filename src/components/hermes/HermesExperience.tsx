@@ -56,7 +56,7 @@ export const HermesExperience: React.FC<HermesExperienceProps> = ({
         className="min-h-[92vh] pt-32 pb-20 px-4 sm:px-6 lg:px-8 flex flex-col justify-between max-w-7xl mx-auto"
       >
         <div className="space-y-6 max-w-4xl pt-8">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-[#4A2415]/15 text-[11px] uppercase tracking-[0.25em] font-medium text-[#4A2415]/80 bg-[#EDE5D9]/40">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-[#4A2415]/15 text-[11px] uppercase tracking-[0.25em] font-medium text-[#4A2415]/80 bg-[#EDE5D9]/40 mb-3 sm:mb-4">
             <span className="w-1.5 h-1.5 rounded-full bg-[#F37021]"></span>
             <span>House Monograph • Paris 1837</span>
           </div>
@@ -109,7 +109,7 @@ export const HermesExperience: React.FC<HermesExperienceProps> = ({
         <section id="sec-02" className="space-y-8 pt-12">
           <div className="border-b border-[#D8CEBE] pb-6 flex flex-col sm:flex-row sm:items-end justify-between gap-2">
             <div>
-              <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-1.5">
+              <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-1.5 mb-3.5 sm:mb-4">
                 <Sparkles className="w-3.5 h-3.5" />
                 <span>Section 02</span>
               </span>
@@ -124,7 +124,7 @@ export const HermesExperience: React.FC<HermesExperienceProps> = ({
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-[#EDE5D9] rounded-3xl p-6 sm:p-10 border border-[#D8CEBE]">
             <div className="lg:col-span-6 space-y-4">
-              <span className="text-xs uppercase tracking-widest font-semibold text-[#F37021] block">
+              <span className="text-xs uppercase tracking-widest font-semibold text-[#F37021] block mb-3 sm:mb-3.5">
                 Thierry Hermès (1801–1878)
               </span>
               <h3 className="font-editorial text-2xl sm:text-3xl text-[#4A2415] leading-tight">
@@ -159,7 +159,7 @@ export const HermesExperience: React.FC<HermesExperienceProps> = ({
         <section id="sec-03" className="space-y-8">
           <div className="border-b border-[#D8CEBE] pb-6 flex flex-col sm:flex-row sm:items-end justify-between gap-2">
             <div>
-              <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-1.5">
+              <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-1.5 mb-3.5 sm:mb-4">
                 <Sparkles className="w-3.5 h-3.5" />
                 <span>Section 03</span>
               </span>
@@ -191,7 +191,7 @@ export const HermesExperience: React.FC<HermesExperienceProps> = ({
         <section id="sec-04" className="space-y-8">
           <div className="border-b border-[#D8CEBE] pb-6 flex flex-col sm:flex-row sm:items-end justify-between gap-2">
             <div>
-              <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-1.5">
+              <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-1.5 mb-3.5 sm:mb-4">
                 <Sparkles className="w-3.5 h-3.5" />
                 <span>Section 04</span>
               </span>
@@ -211,7 +211,7 @@ export const HermesExperience: React.FC<HermesExperienceProps> = ({
         <section id="sec-05" className="space-y-8">
           <div className="border-b border-[#D8CEBE] pb-6 flex flex-col sm:flex-row sm:items-end justify-between gap-2">
             <div>
-              <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-1.5">
+              <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-1.5 mb-3.5 sm:mb-4">
                 <Sparkles className="w-3.5 h-3.5" />
                 <span>Section 05</span>
               </span>
@@ -231,7 +231,7 @@ export const HermesExperience: React.FC<HermesExperienceProps> = ({
         <section id="sec-06" className="space-y-8">
           <div className="border-b border-[#D8CEBE] pb-6 flex flex-col sm:flex-row sm:items-end justify-between gap-2">
             <div>
-              <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-1.5">
+              <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-1.5 mb-3.5 sm:mb-4">
                 <Sparkles className="w-3.5 h-3.5" />
                 <span>Section 06</span>
               </span>

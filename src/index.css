@@ -18,7 +18,24 @@
   }
 
   h1, h2, h3, .font-editorial {
-    font-family: 'Bodoni Moda', 'Cormorant Garamond', Didot, 'Bodoni MT', serif;
+    font-family: 'Cormorant Garamond', Garamond, 'Georgia', serif;
+    font-feature-settings: "liga" 1, "kern" 1;
+  }
+
+  /* Hermès Brand Logo / Wordmark preserves original gravure serif */
+  .font-hermes-logo, .brand-logo-hermes {
+    font-family: 'Bodoni Moda', Didot, 'Cinzel', serif;
+    letter-spacing: 0.22em;
+  }
+
+  /* Landing Page Distinctive Research Archive Display Grotesk */
+  .font-archive-display {
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -0.035em;
+  }
+
+  .font-archive-sans {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   }
 }
 

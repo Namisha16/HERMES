@@ -43,13 +43,19 @@ export const GlobalNav: React.FC<GlobalNavProps> = ({ currentView, onNavigate, a
     }
   };
 
+  const isLanding = currentView === 'landing';
+
   return (
     <header
       id="global-header"
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? 'bg-[#F7F3ED]/90 backdrop-blur-md shadow-[0_4px_24px_rgba(74,36,21,0.06)] border-b border-[#EDE5D9]'
-          : 'bg-transparent'
+        isLanding
+          ? scrolled
+            ? 'bg-[#0E1013]/90 backdrop-blur-md shadow-2xl border-b border-[#22262C] text-[#ECEEF0]'
+            : 'bg-transparent text-[#ECEEF0]'
+          : scrolled
+            ? 'bg-[#F7F3ED]/90 backdrop-blur-md shadow-[0_4px_24px_rgba(74,36,21,0.06)] border-b border-[#EDE5D9] text-[#4A2415]'
+            : 'bg-transparent text-[#4A2415]'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
@@ -58,20 +64,24 @@ export const GlobalNav: React.FC<GlobalNavProps> = ({ currentView, onNavigate, a
           <button
             id="nav-brand-title"
             onClick={() => onNavigate('landing')}
-            className="text-left group focus:outline-none focus:ring-2 focus:ring-[#F37021]/30 rounded-sm"
+            className="text-left group focus:outline-none rounded-sm"
           >
-            <div className="text-[10px] tracking-[0.24em] uppercase text-[#4A2415]/70 font-medium">
-              The Anatomy of Luxury
+            <div className={`text-[10px] tracking-[0.24em] uppercase font-medium ${
+              isLanding ? 'text-[#7B95B3] font-mono' : 'text-[#4A2415]/70'
+            }`}>
+              {isLanding ? 'RESEARCH ARCHIVE' : 'The Anatomy of Luxury'}
             </div>
-            <div className="font-editorial text-lg sm:text-xl font-bold tracking-wider text-[#4A2415] flex items-center gap-1.5">
-              <span>{currentView === 'hermes' ? 'HERMÈS' : 'THE HOUSES'}</span>
-              {currentView === 'hermes' && (
+            <div className={`text-lg sm:text-xl font-bold tracking-wider flex items-center gap-1.5 ${
+              isLanding ? 'font-archive-display text-[#ECEEF0]' : 'font-hermes-logo text-[#4A2415]'
+            }`}>
+              <span>{isLanding ? 'THE HOUSES' : 'HERMÈS'}</span>
+              {!isLanding && (
                 <span className="w-1.5 h-1.5 rounded-full bg-[#F37021] inline-block"></span>
               )}
             </div>
           </button>
 
-          {currentView === 'hermes' && (
+          {!isLanding && (
             <button
               id="nav-return-landing"
               onClick={() => onNavigate('landing')}
@@ -84,7 +94,7 @@ export const GlobalNav: React.FC<GlobalNavProps> = ({ currentView, onNavigate, a
         </div>
 
         {/* Center: In-depth Hermès Chapter Navigation */}
-        {currentView === 'hermes' && (
+        {!isLanding && (
           <nav id="nav-chapter-links" className="hidden xl:flex items-center space-x-5 text-xs font-medium tracking-widest uppercase">
             {hermesSections.map((sec) => {
               const isActive = activeSection === sec.id;
@@ -109,13 +119,13 @@ export const GlobalNav: React.FC<GlobalNavProps> = ({ currentView, onNavigate, a
 
         {/* Right: Actions */}
         <div className="flex items-center space-x-3">
-          {currentView === 'landing' ? (
+          {isLanding ? (
             <button
               id="nav-enter-hermes-direct"
               onClick={() => onNavigate('hermes')}
-              className="flex items-center gap-2 px-4 py-2 bg-[#F37021] text-white rounded-full text-xs font-semibold tracking-widest uppercase hover:bg-[#D95F16] transition-colors shadow-sm"
+              className="flex items-center gap-2 px-4 py-2 bg-[#C7BCAD] text-[#0E1013] rounded-lg text-xs font-mono font-bold tracking-widest uppercase hover:bg-[#DCD4C7] transition-all shadow-md"
             >
-              <Sparkles className="w-3.5 h-3.5" />
+              <Sparkles className="w-3.5 h-3.5 text-[#0E1013]" />
               <span>Enter Hermès</span>
             </button>
           ) : (

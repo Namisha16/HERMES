@@ -24,7 +24,7 @@ export const OrangeTransition: React.FC = () => {
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
         {/* Left: Historical Context */}
         <div className="md:col-span-6 space-y-4">
-          <div className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.25em] font-semibold text-[#F37021]">
+          <div className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.25em] font-semibold text-[#F37021] mb-2 sm:mb-3">
             <Package className="w-4 h-4" />
             <span>1942 Archival Event</span>
           </div>

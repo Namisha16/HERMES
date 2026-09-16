@@ -1,0 +1,47 @@
+{
+  "shoes": {
+    "imgs": [
+      "https://assets.hermes.com/is/image/hermesproduct/ninety-90-boot--262081Z%2002-front-wm-1-0-0-1000-1000_g.jpg",
+      "https://assets.hermes.com/is/image/hermesproduct/ninety-90-boot--262081Z%2002-front-wm-1-0-0-320-320_g.jpg",
+      "https://assets.hermes.com/is/image/hermesproduct/ninety-90-boot--262081Z%2002-worn-2-0-0-320-320_g.jpg",
+      "https://assets.hermes.com/is/image/hermesproduct/ninety-90-boot--262081Z%2002-side-wm-4-0-0-320-320_g.jpg",
+      "https://assets.hermes.com/is/image/hermesproduct/ninety-90-boot--262081Z%2002-back-wm-5-0-0-320-320_g.jpg"
+    ],
+    "og": [
+      "https://assets.hermes.com/is/image/hermesproduct/ninety-90-boot--262081Z%2002-front-wm-1-0-0-1000-1000_g.jpg"
+    ]
+  },
+  "watches": {
+    "imgs": [
+      "https://assets.hermes.com/is/image/hermesproduct/ultra-4-case-band-apple-watch-hermes-single-tour-49mm-grand-h-titane--applewatch-0001091%20TT_composite_5-0003141%20GT_composite_5-300-0-1000-1000_g.jpg",
+      "https://assets.hermes.com/is/image/hermesproduct/ultra-4-case-band-apple-watch-hermes-single-tour-49mm-grand-h-titane--applewatch-0001091%20TT_composite_5-0003141%20GT_composite_5-300-0-320-320_g.jpg",
+      "https://assets.hermes.com/is/image/hermesproduct/ultra-4-case-band-apple-watch-hermes-single-tour-49mm-grand-h-titane--0003141%20GT-worn-2-0-0-320-320_g.jpg",
+      "https://assets.hermes.com/is/image/hermesproduct/ultra-4-case-band-apple-watch-hermes-single-tour-49mm-grand-h-titane--applewatch-0001091%20TT_composite_6-0003141%20GT_composite_6-300-0-320-320_g.jpg",
+      "https://assets.hermes.com/is/image/hermesproduct/0001091%20TT_thumbnail_20"
+    ],
+    "og": [
+      "https://assets.hermes.com/is/image/hermesproduct/ultra-4-case-band-apple-watch-hermes-single-tour-49mm-grand-h-titane--applewatch-0001091%20TT_composite_5-0003141%20GT_composite_5-300-0-1000-1000_g.jpg"
+    ]
+  },
+  "tableware": {
+    "imgs": [
+      "https://assets.hermes.com/is/image/hermesproduct/balcon-du-guadalquivir-dessert-plate--011007P-worn-1-0-0-1000-1000_g.jpg",
+      "https://assets.hermes.com/is/image/hermesproduct/balcon-du-guadalquivir-dessert-plate--011007P-worn-1-0-0-320-320_g.jpg",
+      "https://assets.hermes.com/is/image/hermesproduct/balcon-du-guadalquivir-dessert-plate--011007P-worn-2-0-0-320-320_g.jpg",
+      "https://assets.hermes.com/is/image/hermesproduct/balcon-du-guadalquivir-dessert-plate--011007P-worn-3-0-0-320-320_g.jpg"
+    ],
+    "og": [
+      "https://assets.hermes.com/is/image/hermesproduct/balcon-du-guadalquivir-dessert-plate--011007P-worn-1-0-0-1000-1000_g.jpg"
+    ]
+  },
+  "symbols_farandole": {
+    "imgs": [
+      "https://assets.hermes.com/is/image/hermesproduct/farandole-earrings--221516B%2000-worn-1-0-0-1000-1000_g.jpg",
+      "https://assets.hermes.com/is/image/hermesproduct/farandole-earrings--221516B%2000-worn-1-0-0-320-320_g.jpg",
+      "https://assets.hermes.com/is/image/hermesproduct/farandole-earrings--221516B%2000-worn-2-0-0-320-320_g.jpg"
+    ],
+    "og": [
+      "https://assets.hermes.com/is/image/hermesproduct/farandole-earrings--221516B%2000-worn-1-0-0-1000-1000_g.jpg"
+    ]
+  }
+}

@@ -10,25 +10,29 @@ export const NarrativeStories: React.FC = () => {
       title: "1. The Hollywood Star",
       subtitle: "Alfred Hitchcock & To Catch a Thief (1954)",
       text: "Costume designer Edith Head selected Hermès accessories for Grace Kelly on the Côte d'Azur set of Hitchcock's To Catch a Thief. Kelly fell in love with the structured trapezoidal Sac à dépêches.",
-      image: "/assets/grace_kelly.jpg"
+      image: "/assets/grace_kelly.jpg",
+      objectPosition: "center 12%"
     },
     {
       title: "2. The Candid Photograph",
       subtitle: "Life Magazine Cover (1956)",
       text: "Newly married to Prince Rainier III of Monaco and pregnant with Princess Caroline, Grace Kelly stepped out in front of international paparazzi, holding her Hermès bag in front of her stomach to conceal her baby bump.",
-      image: "/assets/grace_kelly.jpg"
+      image: "/assets/grace_kelly.jpg",
+      objectPosition: "center 10%"
     },
     {
       title: "3. The Transformation",
       subtitle: "From Sac à dépêches to 'The Kelly'",
       text: "Women across Paris, London, and New York stormed Hermès boutiques asking for 'the Kelly bag'. The house respectfully and officially adopted the name in 1977, cementing its aristocratic immortality.",
-      image: "/assets/hermes_vogue_inline2.jpg"
+      image: "/assets/kelly_transformation.jpg",
+      objectPosition: "center 20%"
     },
     {
       title: "4. The Craft Blueprint",
       subtitle: "36 Leather Elements, 680 Saddle Stitches",
       text: "Every Kelly bag requires 18 to 20 hours of single-artisan assembly. The turn-lock touret, padlock (cadenas), clochette, and pearled rivets remain unchanged across nearly a century.",
-      image: "/assets/hermes_birkin_black.jpg"
+      image: "/assets/hermes_birkin_black.jpg",
+      objectPosition: "center center"
     }
   ];
 
@@ -37,25 +41,29 @@ export const NarrativeStories: React.FC = () => {
       title: "1. The Chance Flight",
       subtitle: "Paris to London, 1984",
       text: "English-French singer and actress Jane Birkin was upgraded on an Air France flight. Settling into her seat, her straw basket fell from the overhead bin, spilling its contents across the aisle.",
-      image: "/assets/jane_birkin.jpg"
+      image: "/assets/birkin_flight.jpg",
+      objectPosition: "center center"
     },
     {
       title: "2. The Conversation at 35,000 Feet",
       subtitle: "Jane Birkin & Jean-Louis Dumas",
       text: "Her seatmate was Jean-Louis Dumas, then Executive Chairman of Hermès. Birkin complained that she could never find a leather weekend bag big enough for her baby bottles and daily essentials yet refined enough for Paris.",
-      image: "/assets/hermes_birkin_classic.jpg"
+      image: "/assets/hermes_birkin_classic.jpg",
+      objectPosition: "center center"
     },
     {
       title: "3. The Airsickness Sketch",
       subtitle: "Sketched on Barf Bag Paper",
       text: "Dumas asked: 'What would it look like?' Birkin drew a sketch on an airsickness bag. Dumas promised: 'I will make it for you if you allow us to give it your name.'",
-      image: "/assets/hermes_birkin_fuchsia.jpg"
+      image: "/assets/hermes_birkin_fuchsia.jpg",
+      objectPosition: "center center"
     },
     {
       title: "4. The Global Phenomenon",
       subtitle: "The Most Desired Object on Earth",
       text: "Unlike the Kelly's rigid formal posture, the Birkin was slouchy, generous, and casual. Today it commands years-long waiting lists and broke auction records as an asset outpacing gold and the S&P 500.",
-      image: "/assets/hermes_vogue_inline3.jpg"
+      image: "/assets/birkin_global_phenom.jpg",
+      objectPosition: "center 15%"
     }
   ];
 
@@ -65,7 +73,7 @@ export const NarrativeStories: React.FC = () => {
       <section id="sec-10-kelly" className="space-y-8">
         <div className="border-b border-[#D8CEBE] pb-6 flex flex-col sm:flex-row sm:items-end justify-between gap-2">
           <div>
-            <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-1.5">
+            <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-1.5 mb-3.5 sm:mb-4">
               <Sparkles className="w-3.5 h-3.5" />
               <span>Section 10</span>
             </span>
@@ -94,7 +102,7 @@ export const NarrativeStories: React.FC = () => {
             </div>
 
             <div className="space-y-3">
-              <span className="text-xs uppercase tracking-widest text-[#F37021] font-bold">
+              <span className="text-xs uppercase tracking-widest text-[#F37021] font-bold block mb-2 sm:mb-2.5">
                 {kellySequence[kellyStep].subtitle}
               </span>
               <h3 className="font-editorial text-2xl sm:text-4xl text-[#4A2415]">
@@ -121,6 +129,7 @@ export const NarrativeStories: React.FC = () => {
             <img
               src={kellySequence[kellyStep].image}
               alt="Grace Kelly and Hermès Kelly"
+              style={{ objectPosition: (kellySequence[kellyStep] as any).objectPosition || 'center top' }}
               className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
             />
           </div>
@@ -131,7 +140,7 @@ export const NarrativeStories: React.FC = () => {
       <section id="sec-11-birkin" className="space-y-8">
         <div className="border-b border-[#D8CEBE] pb-6 flex flex-col sm:flex-row sm:items-end justify-between gap-2">
           <div>
-            <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-1.5">
+            <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-1.5 mb-3.5 sm:mb-4">
               <Sparkles className="w-3.5 h-3.5" />
               <span>Section 11</span>
             </span>
@@ -149,6 +158,7 @@ export const NarrativeStories: React.FC = () => {
             <img
               src={birkinSequence[birkinStep].image}
               alt="Jane Birkin and Hermès Birkin"
+              style={{ objectPosition: (birkinSequence[birkinStep] as any).objectPosition || 'center center' }}
               className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
             />
           </div>
@@ -168,7 +178,7 @@ export const NarrativeStories: React.FC = () => {
             </div>
 
             <div className="space-y-3">
-              <span className="text-xs uppercase tracking-widest text-[#F37021] font-bold">
+              <span className="text-xs uppercase tracking-widest text-[#F37021] font-bold block mb-2 sm:mb-2.5">
                 {birkinSequence[birkinStep].subtitle}
               </span>
               <h3 className="font-editorial text-2xl sm:text-4xl text-[#4A2415]">

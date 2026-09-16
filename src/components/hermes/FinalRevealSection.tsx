@@ -22,7 +22,7 @@ export const FinalRevealSection: React.FC<FinalRevealSectionProps> = ({ onExplor
   return (
     <div id="final-reveal-section" className="space-y-16 py-12">
       <div className="text-center max-w-3xl mx-auto space-y-4">
-        <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center justify-center gap-2">
+        <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center justify-center gap-2 mb-3.5 sm:mb-4">
           <Sparkles className="w-3.5 h-3.5" />
           <span>Section 19 • Synthesis</span>
         </span>

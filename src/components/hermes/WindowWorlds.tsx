@@ -11,7 +11,7 @@ export const WindowWorlds: React.FC = () => {
     <div id="window-worlds-section" className="space-y-8">
       <div className="border-b border-[#D8CEBE] pb-6 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
         <div>
-          <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-1.5">
+          <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-1.5 mb-3.5 sm:mb-4">
             <Sparkles className="w-3.5 h-3.5" />
             <span>Section 12</span>
           </span>

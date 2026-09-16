@@ -30,7 +30,13 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#F7F3ED] text-[#4A2415] flex flex-col justify-between selection:bg-[#F37021] selection:text-white">
+    <div
+      className={`min-h-screen flex flex-col justify-between transition-colors duration-500 ${
+        currentView === 'landing'
+          ? 'bg-[#0E1013] text-[#ECEEF0] selection:bg-[#5B7898] selection:text-white'
+          : 'bg-[#F7F3ED] text-[#4A2415] selection:bg-[#F37021] selection:text-white'
+      }`}
+    >
       {/* Global Navigation with brand switch and chapter links */}
       <GlobalNav
         currentView={currentView}
@@ -53,8 +59,8 @@ export const App: React.FC = () => {
         )}
       </main>
 
-      {/* Editorial Footer */}
-      <Footer onExploreHouse={handleSelectBrand} />
+      {/* Editorial Footer - shown on Hermès page */}
+      {currentView === 'hermes' && <Footer onExploreHouse={handleSelectBrand} />}
     </div>
   );
 };

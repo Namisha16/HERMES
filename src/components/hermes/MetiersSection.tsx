@@ -18,7 +18,7 @@ export const MetiersSection: React.FC = () => {
       {/* Section 07: Infrastructure Headline & Big Numbers */}
       <div id="craft-infrastructure-banner" className="space-y-10">
         <div className="text-center max-w-3xl mx-auto space-y-4">
-          <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center justify-center gap-2">
+          <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center justify-center gap-2 mb-3.5 sm:mb-4">
             <Hammer className="w-3.5 h-3.5" />
             <span>Artisanal Infrastructure</span>
           </span>
@@ -55,7 +55,7 @@ export const MetiersSection: React.FC = () => {
       <div id="metiers-interactive-grid" className="space-y-6">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between border-b border-[#D8CEBE] pb-4 gap-2">
           <div>
-            <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold">
+            <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold block mb-3.5 sm:mb-4">
               The 16 Métiers
             </span>
             <h3 className="font-editorial text-2xl sm:text-3xl text-[#4A2415]">
@@ -123,7 +123,7 @@ export const MetiersSection: React.FC = () => {
           >
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between border-b border-[#4A2415]/15 pb-4 gap-2">
               <div>
-                <span className="text-xs uppercase tracking-[0.2em] font-bold text-[#F37021]">
+                <span className="text-xs uppercase tracking-[0.2em] font-bold text-[#F37021] block mb-2 sm:mb-3">
                   Métier Spotlight: {selectedMetier.frenchName}
                 </span>
                 <h4 className="font-editorial text-2xl sm:text-3xl text-[#4A2415]">

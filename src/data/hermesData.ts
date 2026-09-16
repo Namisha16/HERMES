@@ -138,7 +138,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "Prêt-à-porter Masculin",
     process: "Architectural tailoring, fluid technical fabrics, subtle equestrian lining details.",
     description: "Originated in 1925 with a bespoke zippered golf jacket made for the Prince of Wales.",
-    image: "/assets/hermes_runway_038.jpg",
+    image: "/assets/metier_rtw_men_official.jpg",
     established: "1925"
   },
   {
@@ -156,7 +156,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "Chaussures",
     process: "Last sculpting, Goodyear welt stitching, signature 'H' cut-outs in calfskin.",
     description: "From equestrian riding boots to the universally recognized Oran sandal designed in 1997.",
-    image: "/assets/hermes_runway_118.jpg",
+    image: "/assets/metier_shoes_sneakers.jpg",
     established: "1928"
   },
   {
@@ -165,7 +165,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "Ceintures",
     process: "Double-faced leather skiving, reversible construction, hand-polished palladium buckles.",
     description: "Functional saddlery hardware translated into the iconic Collier de Chien and Constance belts.",
-    image: "/assets/hermes_runway_067.jpg",
+    image: "/assets/metier_belts_constance.jpg",
     established: "1930s"
   },
   {
@@ -174,7 +174,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "Ganterie",
     process: "Table-cut lambskin, hand-sewn fourchettes, cashmere and silk lining.",
     description: "Custom hand-molded glove making continuing ancestral French leather-dressing techniques.",
-    image: "/assets/leather_harness.jpg",
+    image: "/assets/metier_gloves_hommage.jpg",
     established: "1920s"
   },
   {
@@ -183,7 +183,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "Chapeaux",
     process: "Felt blocking on linden wood molds, grosgrain ribbon trim, seasonal silk bandings.",
     description: "Equestrian caps, panamas, and cloches designed in historical millinery partnerships.",
-    image: "/assets/hermes_runway_133.jpg",
+    image: "/assets/metier_hats_chapeaux.jpg",
     established: "1930s"
   },
   {
@@ -192,7 +192,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "Bijouterie & Joaillerie",
     process: "Micro-pave gem setting, anchor-link casting, lost-wax goldsmithing in Paris ateliers.",
     description: "Directly inspired by maritime anchor chains and equestrian harness bits.",
-    image: "/assets/hermes_vogue_inline1.jpg",
+    image: "/assets/metier_jewelry_chaine.jpg",
     established: "1927"
   },
   {
@@ -201,7 +201,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "Horlogerie",
     process: "In-house mechanical caliber development in Le Noirmont, hand-chamfered bridges, leather straps.",
     description: "Time reimagined as playful poetry—such as the Cape Cod, Arceau, and Hermès H08.",
-    image: "/assets/hermes_vogue_inline2.jpg",
+    image: "/assets/metier_watches_applewatch.jpg",
     established: "1928"
   },
   {
@@ -219,7 +219,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "Beauté",
     process: "Refillable lacquered metal cases designed by Pierre Hardy, custom pigments, beeswax texture.",
     description: "The 16th métier inaugurated in 2020 with Rouge Hermès, combining sustainable metals with luxury.",
-    image: "/assets/hermes_vogue_inline4.jpg",
+    image: "/assets/metier_beauty_rouge.jpg",
     established: "2020"
   },
   {
@@ -228,7 +228,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "Art de Vivre",
     process: "Solid walnut joinery, hand-woven cashmere blankets, saddlery-stitched desk objects.",
     description: "Interiors, furniture, and equestrian blankets honoring the warmth of natural materials.",
-    image: "/assets/hermes_vogue_hero.jpg",
+    image: "/assets/metier_art_living_avalon.jpg",
     established: "1924"
   },
   {
@@ -237,7 +237,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "Arts de la Table",
     process: "Limoges porcelain manufacturing, 24k gold hand-filing, chromolithographic transfer firing.",
     description: "Intricately decorated porcelain dinner services featuring botanical and equestrian motifs.",
-    image: "/assets/hermes_vogue_inline3.jpg",
+    image: "/assets/metier_tableware_soleil.jpg",
     established: "1984"
   },
   {
@@ -246,7 +246,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "Équitation",
     process: "Custom saddle measurement for horse and rider, beechwood tree carving, memory foam padding.",
     description: "The living soul of the house: Steinkraus, Talaris, and Hermès Vivace competition saddles.",
-    image: "/assets/saddle_craft.jpg",
+    image: "/assets/metier_equestrian_riding.jpg",
     established: "1837"
   },
   {
@@ -255,7 +255,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "petit h",
     process: "Reverse creation: artisans and artists design directly from dormant unused workshop remnants.",
     description: "Created in 2010 by Pascale Mussard to give precious unused materials a poetic second life.",
-    image: "/assets/hermes_runway_156.jpg",
+    image: "/assets/metier_petit_h_creation.jpg",
     established: "2010"
   }
 ];
@@ -299,7 +299,7 @@ export const PRODUCT_ICONS: ProductIconItem[] = [
     tagline: "The maritime anchor link transformed into sculpted silver.",
     story: "While strolling along the Normandy coastline in 1938, Robert Dumas was struck by the functional perfection of the anchor chains mooring boats. He sketched the balanced, pill-shaped interlocking links in solid silver, creating a signature jewellery archetype.",
     detail: "Each silver link is individually cast, hand-assembled, and high-polished to achieve an ergonomic, tactile drape.",
-    image: "/assets/hermes_vogue_inline1.jpg"
+    image: "/assets/farandole_earrings.jpg"
   },
   {
     id: "constance",
@@ -395,14 +395,14 @@ export const LE_MONDE_SPREADS = [
     issue: "N° 82 — L'Étonnement",
     theme: "Astonishment",
     quote: "To craft is to pay respectful attention to the unexpected miracles of the hand.",
-    image: "/assets/hermes_vogue_hero.jpg"
+    image: "/assets/monde_astonish.jpg"
   },
   {
     id: 2,
     issue: "N° 85 — La Créativité en Mouvement",
     theme: "Play & Inversion",
     quote: "A house that does not smile is a museum. Hermès is an atelier of living joy.",
-    image: "/assets/hermes_vogue_inline1.jpg"
+    image: "/assets/monde_play.jpg"
   },
   {
     id: 3,

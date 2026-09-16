@@ -11,6 +11,7 @@ export const LogoEvolution: React.FC = () => {
       subtitle: "Duc attelé, groom à l'attente",
       description: "A gouache painting by French romantic painter Alfred de Dreux (1810–1860) acquired by Émile Hermès for his personal collection of equestrian art.",
       image: "/assets/alfred_de_dreux.jpg",
+      objectPosition: "center 12%",
       note: "The original artistic inspiration held in the private museum above 24 Faubourg."
     },
     {
@@ -34,7 +35,7 @@ export const LogoEvolution: React.FC = () => {
       title: "The Graphic 'H' & Timeless Identity",
       subtitle: "Subtle Iconography",
       description: "Rather than plastering monogram logos across products, Hermès relies on structural geometry: the 'H' cut into the Oran sandal, the turn-lock clou de selle, and the distinctive Bolduc ribbon.",
-      image: "/assets/hermes_vogue_inline1.jpg",
+      image: "/assets/hermes_graphic_h_identity.jpg",
       note: "Conspicuous discretion: recognizable by form, stitch, and leather rather than loud logos."
     }
   ];
@@ -67,7 +68,7 @@ export const LogoEvolution: React.FC = () => {
         {/* Selected Evolution Step Presentation */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center bg-[#F7F3ED] rounded-2xl p-6 sm:p-8 border border-[#D8CEBE]">
           <div className="md:col-span-6 space-y-4">
-            <div className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold">
+            <div className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold mb-3.5">
               {steps[activeStep].stage}
             </div>
             <h3 className="font-editorial text-2xl sm:text-3xl text-[#4A2415] leading-tight">
@@ -91,6 +92,7 @@ export const LogoEvolution: React.FC = () => {
               <img
                 src={steps[activeStep].image}
                 alt={steps[activeStep].title}
+                style={{ objectPosition: (steps[activeStep] as any).objectPosition || 'center center' }}
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />
             </div>

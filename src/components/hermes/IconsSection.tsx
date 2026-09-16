@@ -10,7 +10,7 @@ export const IconsSection: React.FC = () => {
     <div className="space-y-10">
       <div className="border-b border-[#D8CEBE] pb-6 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
         <div>
-          <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-2">
+          <span className="text-xs uppercase tracking-[0.25em] text-[#F37021] font-semibold flex items-center gap-2 mb-3.5 sm:mb-4">
             <Sparkles className="w-3.5 h-3.5" />
             <span>Section 09</span>
           </span>

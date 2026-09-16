@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --hermes-orange: #F37021;
+    --warm-ivory: #F7F3ED;
+    --paper-beige: #EDE5D9;
+    --deep-brown: #4A2415;
+    --pure-black: #000000;
+    --pure-white: #FFFFFF;
+  }
+
+  body {
+    background-color: var(--warm-ivory);
+    color: var(--deep-brown);
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: 'Bodoni Moda', 'Cormorant Garamond', Didot, 'Bodoni MT', serif;
+  }
+}
+
+/* Luxury scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F3ED;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8CEBE;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F37021;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

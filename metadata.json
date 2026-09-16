@@ -1,0 +1,6 @@
+{
+  "name": "The Anatomy of Luxury — Hermès",
+  "description": "An interactive editorial exploration of Hermès, craft, heritage, and the architecture of desire.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

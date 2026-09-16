@@ -1,0 +1,12 @@
+Build a production-quality responsive React + TypeScript website from the HERMES project folder.
+Read all project files before coding. Create a common luxury-brand landing page and a separate Hermès brand world.
+Use the frozen section order in 00_MASTER_DATASET.json.
+Use the design system in 01_DESIGN_GUIDELINES.md.
+Use the mapped assets and source rules.
+Use reusable data-driven components so future brands can be added without rewriting the application.
+Use GSAP/ScrollTrigger for restrained scroll choreography and parallax, Framer Motion for micro-interactions and D3.js for data visualisation.
+Keep the site image-led with concise copy.
+Light mode is default.
+Do not create an ecommerce store, corporate dashboard or generic luxury template.
+Do not invent facts, images, prices or statistics.
+Implement responsive desktop/tablet/mobile behavior, accessibility, reduced-motion support and image performance optimization.

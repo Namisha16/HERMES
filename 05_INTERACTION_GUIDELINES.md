@@ -1,0 +1,19 @@
+# INTERACTION GUIDELINES
+- Hero: slow cinematic movement; floating video draggable/resizable/minimizable.
+- Origin: scroll-linked horse → harness → leather → object.
+- Address: accessible Before/After slider.
+- Timeline: sticky visual timeline; event selection changes image and micro-copy.
+- Logo: animate the historical-to-modern lineage without implying undocumented redesigns.
+- Orange: gradual scroll-driven colour transition.
+- Craft: macro images + data reveal.
+- Métiers: hover/tap image-first grid.
+- Icons: hover/tap object → detail → story; no ecommerce CTAs.
+- Kelly/Birkin: pinned visual narrative sequences.
+- Windows: interactive framed worlds.
+- Le Monde: editorial wall with enlarged spreads.
+- Map: hover/tap region → percentage.
+- Business: charts animate once and have accessible summaries.
+- Numbers of Desire: variables remain separate; no invented score.
+- Contradiction: sequential reveal with a deliberate pause.
+- System: connected nodes highlight relationships; label as project interpretation.
+- Final: slow word-by-word reveal; quiet ending.

@@ -1,0 +1,1 @@
+Use the attached HERMES project folder as the single source of truth. Build the Hermès experience according to the research, dataset, assets, sources and design guidelines inside the folder. Do not invent research, imagery, data, dates or brand history.

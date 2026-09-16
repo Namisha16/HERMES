@@ -1,0 +1,528 @@
+{
+  "project": {
+    "title": "The Anatomy of Luxury",
+    "research_question": "What makes luxury desirable?",
+    "brand": "Hermès",
+    "case_study": "The Architecture of Desire",
+    "period": "1837–Present"
+  },
+  "landing": {
+    "headline": "THE ANATOMY OF LUXURY",
+    "subheadline": "WHAT MAKES LUXURY DESIRABLE?",
+    "supporting_line": "An interactive visual journey through the brands, objects, people and ideas that shape modern luxury.",
+    "cta": "EXPLORE THE HOUSES",
+    "brands": [
+      {
+        "name": "Hermès",
+        "founded": 1837,
+        "origin": "Paris",
+        "descriptor": "The architecture of desire"
+      },
+      {
+        "name": "Versace",
+        "founded": 1978,
+        "origin": "Milan",
+        "descriptor": "TBD"
+      },
+      {
+        "name": "Prada",
+        "founded": 1913,
+        "origin": "Milan",
+        "descriptor": "TBD"
+      },
+      {
+        "name": "Chanel",
+        "founded": 1910,
+        "origin": "Paris",
+        "descriptor": "TBD"
+      },
+      {
+        "name": "Dior",
+        "founded": 1946,
+        "origin": "Paris",
+        "descriptor": "TBD"
+      },
+      {
+        "name": "Ralph Lauren",
+        "founded": 1967,
+        "origin": "New York",
+        "descriptor": "TBD"
+      },
+      {
+        "name": "Bottega Veneta",
+        "founded": 1966,
+        "origin": "Vicenza",
+        "descriptor": "TBD"
+      },
+      {
+        "name": "Louis Vuitton",
+        "founded": 1854,
+        "origin": "Paris",
+        "descriptor": "TBD"
+      }
+    ]
+  },
+  "hermes": {
+    "hero": {
+      "headline": "HERMÈS",
+      "title": "THE ARCHITECTURE OF DESIRE",
+      "period": "1837 — PRESENT",
+      "cta": "ENTER THE HOUSE",
+      "video": "https://www.youtube.com/watch?v=gWytOYNISC8"
+    },
+    "sections": [
+      {
+        "id": "01",
+        "title": "ENTER THE HOUSE",
+        "visuals": [
+          "horse/equestrian",
+          "leather",
+          "stitching",
+          "artisan hands",
+          "orange box",
+          "silk",
+          "product details",
+          "architecture"
+        ],
+        "interaction": "Cinematic opening; floating draggable/resizable/minimizable video."
+      },
+      {
+        "id": "02",
+        "title": "THE ORIGIN",
+        "copy": [
+          "1837",
+          "PARIS",
+          "THIERRY HERMÈS",
+          "A harness workshop becomes the beginning of a house."
+        ],
+        "visuals": [
+          "Thierry Hermès portrait",
+          "early harness",
+          "horse",
+          "saddlery tools",
+          "early workshop",
+          "historical Paris"
+        ],
+        "illustration": "HORSE → HARNESS → LEATHER → OBJECT → HOUSE"
+      },
+      {
+        "id": "03",
+        "title": "THE ADDRESS",
+        "copy": [
+          "24 FAUBOURG SAINT-HONORÉ",
+          "1880"
+        ],
+        "visuals": [
+          "historic façade",
+          "current façade",
+          "street detail",
+          "storefront",
+          "interior"
+        ],
+        "interaction": "Before/after slider."
+      },
+      {
+        "id": "04",
+        "title": "THE THREAD",
+        "interaction": "Interactive visual timeline",
+        "timeline": [
+          [
+            1837,
+            "Thierry Hermès establishes a harness workshop in Paris.",
+            "origin"
+          ],
+          [
+            1880,
+            "Charles-Émile Hermès moves workshops and opens a store at 24 Faubourg Saint-Honoré.",
+            "expansion"
+          ],
+          [
+            1922,
+            "Émile Hermès obtains exclusive rights to the American close-all/zipper system.",
+            "innovation"
+          ],
+          [
+            1925,
+            "First men's ready-to-wear garment: a golf jacket.",
+            "product"
+          ],
+          [
+            1927,
+            "Jewellery.",
+            "product"
+          ],
+          [
+            1928,
+            "Watches and sandals.",
+            "product"
+          ],
+          [
+            1937,
+            "First Hermès silk scarf: Jeu des omnibus et dames blanches.",
+            "product"
+          ],
+          [
+            1945,
+            "Alfred de Dreux’s Duc attelé, groom à l’attente becomes the Hermès emblem.",
+            "identity"
+          ],
+          [
+            1949,
+            "First Hermès tie.",
+            "product"
+          ],
+          [
+            1951,
+            "Robert Dumas takes over leadership.",
+            "leadership"
+          ],
+          [
+            1956,
+            "The Kelly name becomes associated with Grace Kelly after she was photographed carrying the bag.",
+            "icon"
+          ],
+          [
+            1967,
+            "First women’s ready-to-wear collection.",
+            "fashion"
+          ],
+          [
+            1973,
+            "Le Monde d’Hermès begins.",
+            "culture"
+          ],
+          [
+            1978,
+            "Jean-Louis Dumas begins transforming the house and expanding métiers.",
+            "leadership"
+          ],
+          [
+            1984,
+            "The Birkin is created after a chance encounter between Jean-Louis Dumas and Jane Birkin.",
+            "icon"
+          ],
+          [
+            1987,
+            "150th anniversary celebration and annual theme tradition.",
+            "culture"
+          ],
+          [
+            1992,
+            "Pantin leather workshops.",
+            "craft"
+          ],
+          [
+            2000,
+            "Maison Hermès New York; international expansion continues.",
+            "global"
+          ],
+          [
+            2005,
+            "Pierre-Alexis Dumas appointed artistic director.",
+            "creative"
+          ],
+          [
+            2008,
+            "Fondation d’entreprise Hermès.",
+            "culture"
+          ],
+          [
+            2010,
+            "petit h: creation in reverse using unused Hermès manufacturing materials.",
+            "innovation"
+          ],
+          [
+            2013,
+            "Axel Dumas becomes Executive Chairman.",
+            "leadership"
+          ],
+          [
+            2018,
+            "Hermès enters the CAC 40.",
+            "business"
+          ],
+          [
+            2020,
+            "Beauty becomes the 16th métier; Rouge Hermès.",
+            "product"
+          ],
+          [
+            2021,
+            "École Hermès des Savoir-Faire apprenticeship school and 19th leather workshop.",
+            "craft"
+          ],
+          [
+            2025,
+            "24th leather goods workshop in France at L’Isle-d’Espagnac; eventually 260 artisans.",
+            "craft"
+          ]
+        ]
+      },
+      {
+        "id": "05",
+        "title": "FROM HORSE TO HOUSE",
+        "sequence": [
+          "Alfred de Dreux artwork",
+          "horse + carriage + groom",
+          "Hermès emblem",
+          "wordmark",
+          "modern identity"
+        ],
+        "illustration": "Original editorial identity-evolution diagram."
+      },
+      {
+        "id": "06",
+        "title": "ORANGE",
+        "copy": [
+          "1942",
+          "ORANGE BECOMES A SIGNATURE."
+        ],
+        "visuals": [
+          "orange box",
+          "Bolduc ribbon",
+          "shopping bag",
+          "packaging"
+        ],
+        "interaction": "Scroll-driven monochrome-to-orange transition."
+      },
+      {
+        "id": "07",
+        "title": "THE HAND BEHIND THE OBJECT",
+        "headline": "CRAFTSMANSHIP IS NOT DECORATION. IT IS INFRASTRUCTURE.",
+        "data": [
+          [
+            "MÉTIERS",
+            16
+          ],
+          [
+            "PRODUCTION & TRAINING SITES",
+            63
+          ],
+          [
+            "PEOPLE",
+            26494
+          ],
+          [
+            "GENERATIONS",
+            6
+          ]
+        ],
+        "visuals": [
+          "artisan hands",
+          "leather cutting",
+          "stitching",
+          "tools",
+          "workshop",
+          "materials",
+          "Pantin"
+        ]
+      },
+      {
+        "id": "08",
+        "title": "THE 16 MÉTIERS",
+        "interaction": "Image-first grid; hover/tap reveals process and one-line description."
+      },
+      {
+        "id": "09",
+        "title": "WHEN OBJECTS BECOME SYMBOLS",
+        "headline": "THE ICONS",
+        "products": [
+          "Birkin",
+          "Kelly",
+          "Carré",
+          "Chaîne d’Ancre",
+          "Constance",
+          "Haut à Courroies",
+          "Oran",
+          "watches",
+          "jewellery",
+          "perfume",
+          "beauty"
+        ]
+      },
+      {
+        "id": "10",
+        "title": "THE KELLY",
+        "sequence": [
+          "Grace Kelly",
+          "the photograph",
+          "the bag",
+          "the name",
+          "the icon"
+        ]
+      },
+      {
+        "id": "11",
+        "title": "THE BIRKIN",
+        "sequence": [
+          "Jane Birkin",
+          "Paris–London",
+          "conversation",
+          "sketch/reference",
+          "bag",
+          "phenomenon"
+        ]
+      },
+      {
+        "id": "12",
+        "title": "WHEN A WINDOW BECOMES A WORLD",
+        "headline": "LEÏLA MENCHARI",
+        "visuals": [
+          "portrait",
+          "Hermès windows",
+          "surreal installations",
+          "objects",
+          "sculptures",
+          "colour"
+        ],
+        "interaction": "Interactive window-frame worlds."
+      },
+      {
+        "id": "13",
+        "title": "LE MONDE D’HERMÈS",
+        "visuals": [
+          "magazine covers",
+          "editorial spreads",
+          "illustrations",
+          "photography",
+          "typography"
+        ],
+        "interaction": "Editorial wall; hover/tap enlarges page."
+      },
+      {
+        "id": "14",
+        "title": "FROM PARIS TO THE WORLD",
+        "data": [
+          [
+            "Asia-Pacific excluding Japan",
+            42
+          ],
+          [
+            "Americas",
+            19
+          ],
+          [
+            "Europe excluding France",
+            15
+          ],
+          [
+            "Japan",
+            10
+          ],
+          [
+            "France",
+            10
+          ],
+          [
+            "Other / Middle East",
+            4
+          ]
+        ],
+        "context": "Almost 300 stores in 45 countries",
+        "interaction": "Interactive map/globe."
+      },
+      {
+        "id": "15",
+        "title": "THE HOUSE BEHIND THE ICONS",
+        "headline": "€16.0B",
+        "subheadline": "2025 REVENUE",
+        "data": [
+          [
+            "Leather Goods & Saddlery",
+            7070,
+            44
+          ],
+          [
+            "Ready-to-Wear & Accessories",
+            4525,
+            28
+          ],
+          [
+            "Other Hermès sectors",
+            2055,
+            13
+          ],
+          [
+            "Silk & Textiles",
+            964,
+            6
+          ],
+          [
+            "Watches",
+            549,
+            4
+          ],
+          [
+            "Perfume & Beauty",
+            489,
+            3
+          ],
+          [
+            "Other products",
+            349,
+            2
+          ]
+        ]
+      },
+      {
+        "id": "16",
+        "title": "THE NUMBERS OF DESIRE",
+        "variables": [
+          "price",
+          "scarcity",
+          "demand",
+          "resale",
+          "recognition",
+          "revenue"
+        ],
+        "rule": "Only verified data; never invent a composite desirability score."
+      },
+      {
+        "id": "17",
+        "title": "THE CONTRADICTION",
+        "headline": "HOW DO YOU SCALE SOMETHING THAT IS SUPPOSED TO BE RARE?",
+        "sequence": [
+          "one artisan",
+          "one object",
+          "one workshop",
+          "global demand",
+          "€16 billion",
+          "26,000+ people"
+        ]
+      },
+      {
+        "id": "18",
+        "title": "THE HERMÈS SYSTEM",
+        "nodes": [
+          "artisan",
+          "material",
+          "craft",
+          "product",
+          "store",
+          "consumer",
+          "culture/status",
+          "desirability",
+          "demand",
+          "house"
+        ],
+        "label": "Project interpretation"
+      },
+      {
+        "id": "19",
+        "title": "WHAT MAKES HERMÈS DESIRABLE?",
+        "reveal": [
+          "TIME",
+          "CRAFT",
+          "CONTROL",
+          "HERITAGE",
+          "SCARCITY",
+          "CULTURE",
+          "CONSISTENCY",
+          "DESIRE"
+        ],
+        "closing": "But Hermès is only one model of luxury.",
+        "cta": "EXPLORE ANOTHER HOUSE"
+      }
+    ]
+  }
+}

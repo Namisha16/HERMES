@@ -1,0 +1,36 @@
+{
+  "primary": [
+    {
+      "name": "Hermès — Six generations of artisans",
+      "url": "https://www.hermes.com/us/en/content/235056-six-generations-of-artisans",
+      "use": "Historical timeline"
+    },
+    {
+      "name": "Hermès Finance",
+      "url": "https://finance.hermes.com/",
+      "use": "2025 financial reporting and investor documents"
+    },
+    {
+      "name": "Hermès Corporate",
+      "url": "https://www.hermes.com/us/en/content/",
+      "use": "Corporate, métiers, stores and craft information; verify exact page before publishing"
+    }
+  ],
+  "secondary": [
+    {
+      "name": "AI Logo Creator — Hermès logo evolution",
+      "url": "https://www.ailogocreator.io/blog/the-evolution-of-hermes-logo-from-heritage-to-iconic-design",
+      "use": "Secondary logo reference; corroborate with primary sources"
+    },
+    {
+      "name": "BagHunter — Hermès history timeline",
+      "url": "https://baghunter.com/blogs/insights/hermes-brand-history-timeline",
+      "use": "Secondary historical reference; corroborate with primary sources"
+    }
+  ],
+  "video": {
+    "url": "https://www.youtube.com/watch?v=gWytOYNISC8",
+    "use": "Hero/floating video"
+  },
+  "policy": "Primary sources override secondary sources. Do not publish unsupported claims."
+}

@@ -1,0 +1,1 @@
+Perform final QA: verify all frozen sections and order; landing-to-Hermès navigation; future-brand data architecture; desktop/mobile interactions; tap equivalents for hover; reduced motion; alt text; accessible chart summaries; video behavior; no unsupported claims; no broken assets; concise copy; premium editorial finish.

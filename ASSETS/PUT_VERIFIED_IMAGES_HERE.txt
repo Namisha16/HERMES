@@ -1,0 +1,1 @@
+Place verified/licensed assets here. Update 03_ASSET_MANIFEST.json with exact filenames, source URLs and rights status.

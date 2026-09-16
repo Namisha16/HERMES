@@ -1,0 +1,1 @@
+Audit every date, historical claim and number against 04_DATA_SOURCES.json. Do not invent missing values. Flag unsupported claims. Keep FACT, INTERPRETATION and INFERENCE distinct. The Hermès System and desirability model are project interpretations, not official Hermès frameworks.

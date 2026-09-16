@@ -1,0 +1,240 @@
+{
+  "asset_schema": [
+    "asset_id",
+    "section",
+    "type",
+    "description",
+    "filename",
+    "source_url",
+    "year",
+    "rights_status",
+    "caption",
+    "alt_text"
+  ],
+  "planned_assets": [
+    [
+      "HERMES_IMG_001",
+      "01",
+      "atmosphere",
+      "Horse/equestrian detail"
+    ],
+    [
+      "HERMES_IMG_002",
+      "01",
+      "material",
+      "Leather texture macro"
+    ],
+    [
+      "HERMES_IMG_003",
+      "01",
+      "craft",
+      "Artisan hands / stitching"
+    ],
+    [
+      "HERMES_IMG_004",
+      "01",
+      "packaging",
+      "Orange box / Bolduc"
+    ],
+    [
+      "HERMES_IMG_005",
+      "02",
+      "archive",
+      "Thierry Hermès portrait"
+    ],
+    [
+      "HERMES_IMG_006",
+      "02",
+      "archive",
+      "Early harness/saddlery"
+    ],
+    [
+      "HERMES_IMG_007",
+      "03",
+      "architecture",
+      "Historic 24 Faubourg façade"
+    ],
+    [
+      "HERMES_IMG_008",
+      "03",
+      "architecture",
+      "Current 24 Faubourg façade"
+    ],
+    [
+      "HERMES_IMG_009",
+      "05",
+      "identity",
+      "Alfred de Dreux / Duc attelé artwork"
+    ],
+    [
+      "HERMES_IMG_010",
+      "06",
+      "packaging",
+      "Orange box"
+    ],
+    [
+      "HERMES_IMG_011",
+      "06",
+      "packaging",
+      "Bolduc ribbon"
+    ],
+    [
+      "HERMES_IMG_012",
+      "07",
+      "craft",
+      "Leather cutting"
+    ],
+    [
+      "HERMES_IMG_013",
+      "07",
+      "craft",
+      "Hand stitching"
+    ],
+    [
+      "HERMES_IMG_014",
+      "07",
+      "craft",
+      "Workshop interior"
+    ],
+    [
+      "HERMES_IMG_015",
+      "09",
+      "product",
+      "Birkin"
+    ],
+    [
+      "HERMES_IMG_016",
+      "09",
+      "product",
+      "Kelly"
+    ],
+    [
+      "HERMES_IMG_017",
+      "09",
+      "product",
+      "Carré"
+    ],
+    [
+      "HERMES_IMG_018",
+      "09",
+      "product",
+      "Chaîne d’Ancre"
+    ],
+    [
+      "HERMES_IMG_019",
+      "10",
+      "person",
+      "Grace Kelly"
+    ],
+    [
+      "HERMES_IMG_020",
+      "10",
+      "product",
+      "Kelly detail"
+    ],
+    [
+      "HERMES_IMG_021",
+      "11",
+      "person",
+      "Jane Birkin"
+    ],
+    [
+      "HERMES_IMG_022",
+      "11",
+      "product",
+      "Birkin detail"
+    ],
+    [
+      "HERMES_IMG_023",
+      "12",
+      "person",
+      "Leïla Menchari"
+    ],
+    [
+      "HERMES_IMG_024",
+      "12",
+      "culture",
+      "Hermès window display"
+    ],
+    [
+      "HERMES_IMG_025",
+      "13",
+      "culture",
+      "Le Monde d’Hermès cover"
+    ],
+    [
+      "HERMES_IMG_026",
+      "13",
+      "culture",
+      "Le Monde d’Hermès editorial spread"
+    ],
+    [
+      "HERMES_IMG_027",
+      "14",
+      "architecture",
+      "Hermès international store"
+    ],
+    [
+      "HERMES_IMG_028",
+      "14",
+      "data",
+      "World map base graphic"
+    ],
+    [
+      "HERMES_IMG_029",
+      "15",
+      "data",
+      "Revenue visualisation base"
+    ],
+    [
+      "HERMES_IMG_030",
+      "18",
+      "illustration",
+      "Hermès system network"
+    ]
+  ],
+  "illustrations": [
+    [
+      "HERMES_ILL_001",
+      "02",
+      "From Harness to House",
+      "horse → harness → leather → object → house"
+    ],
+    [
+      "HERMES_ILL_002",
+      "05",
+      "From Horse to House",
+      "Duc attelé → emblem → wordmark"
+    ],
+    [
+      "HERMES_ILL_003",
+      "06",
+      "Orange Transition",
+      "monochrome → Hermès orange"
+    ],
+    [
+      "HERMES_ILL_004",
+      "10",
+      "Kelly Story",
+      "Grace Kelly → photograph → bag → icon"
+    ],
+    [
+      "HERMES_ILL_005",
+      "11",
+      "Birkin Story",
+      "Jane Birkin → flight → conversation → bag → phenomenon"
+    ],
+    [
+      "HERMES_ILL_006",
+      "12",
+      "Window Worlds",
+      "surreal editorial window frames"
+    ],
+    [
+      "HERMES_ILL_007",
+      "18",
+      "Hermès System",
+      "minimal network diagram"
+    ]
+  ]
+}

@@ -11,21 +11,21 @@ export const NarrativeStories: React.FC = () => {
       subtitle: "Alfred Hitchcock & To Catch a Thief (1954)",
       text: "Costume designer Edith Head selected Hermès accessories for Grace Kelly on the Côte d'Azur set of Hitchcock's To Catch a Thief. Kelly fell in love with the structured trapezoidal Sac à dépêches.",
       image: "/assets/grace_kelly.jpg",
-      objectPosition: "center 12%"
+      objectPosition: "center 0%"
     },
     {
       title: "2. The Candid Photograph",
       subtitle: "Life Magazine Cover (1956)",
       text: "Newly married to Prince Rainier III of Monaco and pregnant with Princess Caroline, Grace Kelly stepped out in front of international paparazzi, holding her Hermès bag in front of her stomach to conceal her baby bump.",
-      image: "/assets/grace_kelly.jpg",
-      objectPosition: "center 10%"
+      image: "/assets/grace_kelly_candid_rainier.jpg",
+      objectPosition: "center 0%"
     },
     {
       title: "3. The Transformation",
       subtitle: "From Sac à dépêches to 'The Kelly'",
       text: "Women across Paris, London, and New York stormed Hermès boutiques asking for 'the Kelly bag'. The house respectfully and officially adopted the name in 1977, cementing its aristocratic immortality.",
-      image: "/assets/kelly_transformation.jpg",
-      objectPosition: "center 20%"
+      image: "/assets/kelly_transformation_bag.jpg",
+      objectPosition: "center center"
     },
     {
       title: "4. The Craft Blueprint",

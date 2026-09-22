@@ -51,8 +51,8 @@ export const GlobalNav: React.FC<GlobalNavProps> = ({ currentView, onNavigate, a
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isLanding
           ? scrolled
-            ? 'bg-[#0E1013]/90 backdrop-blur-md shadow-2xl border-b border-[#22262C] text-[#ECEEF0]'
-            : 'bg-transparent text-[#ECEEF0]'
+            ? 'bg-[#F8F5F0]/95 backdrop-blur-md shadow-[0_4px_24px_rgba(30,25,21,0.06)] border-b border-[#E8DFD3] text-[#1E1915]'
+            : 'bg-transparent text-[#1E1915]'
           : scrolled
             ? 'bg-[#F7F3ED]/90 backdrop-blur-md shadow-[0_4px_24px_rgba(74,36,21,0.06)] border-b border-[#EDE5D9] text-[#4A2415]'
             : 'bg-transparent text-[#4A2415]'
@@ -67,12 +67,12 @@ export const GlobalNav: React.FC<GlobalNavProps> = ({ currentView, onNavigate, a
             className="text-left group focus:outline-none rounded-sm"
           >
             <div className={`text-[10px] tracking-[0.24em] uppercase font-medium ${
-              isLanding ? 'text-[#7B95B3] font-mono' : 'text-[#4A2415]/70'
+              isLanding ? 'text-[#7D6F64] font-mono' : 'text-[#4A2415]/70'
             }`}>
               {isLanding ? 'RESEARCH ARCHIVE' : 'The Anatomy of Luxury'}
             </div>
-            <div className={`text-lg sm:text-xl font-bold tracking-wider flex items-center gap-1.5 ${
-              isLanding ? 'font-archive-display text-[#ECEEF0]' : 'font-hermes-logo text-[#4A2415]'
+            <div className={`text-lg sm:text-xl flex items-center gap-1.5 ${
+              isLanding ? 'font-archive-display font-bold text-[#1E1915] tracking-wider' : 'font-hermes-logo font-semibold text-[#4A2415] tracking-[0.05em]'
             }`}>
               <span>{isLanding ? 'THE HOUSES' : 'HERMÈS'}</span>
               {!isLanding && (
@@ -120,14 +120,12 @@ export const GlobalNav: React.FC<GlobalNavProps> = ({ currentView, onNavigate, a
         {/* Right: Actions */}
         <div className="flex items-center space-x-3">
           {isLanding ? (
-            <button
-              id="nav-enter-hermes-direct"
-              onClick={() => onNavigate('hermes')}
-              className="flex items-center gap-2 px-4 py-2 bg-[#C7BCAD] text-[#0E1013] rounded-lg text-xs font-mono font-bold tracking-widest uppercase hover:bg-[#DCD4C7] transition-all shadow-md"
-            >
-              <Sparkles className="w-3.5 h-3.5 text-[#0E1013]" />
-              <span>Enter Hermès</span>
-            </button>
+            <div className="flex items-center gap-2">
+              <span className="hidden sm:inline-block text-[11px] font-mono tracking-widest text-[#7D6F64] uppercase">
+                MONOGRAPH ARCHIVE • VOL. I
+              </span>
+              <span className="w-1.5 h-1.5 rounded-full bg-[#F37021]"></span>
+            </div>
           ) : (
             <div className="flex items-center gap-2">
               <span className="hidden sm:inline-block text-[11px] tracking-widest text-[#4A2415]/60 uppercase">

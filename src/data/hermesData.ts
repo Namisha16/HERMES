@@ -138,7 +138,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "Prêt-à-porter Masculin",
     process: "Architectural tailoring, fluid technical fabrics, subtle equestrian lining details.",
     description: "Originated in 1925 with a bespoke zippered golf jacket made for the Prince of Wales.",
-    image: "/assets/metier_rtw_men_official.jpg",
+    image: "/assets/metier_rtw_jacket.jpg",
     established: "1925"
   },
   {
@@ -156,7 +156,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "Chaussures",
     process: "Last sculpting, Goodyear welt stitching, signature 'H' cut-outs in calfskin.",
     description: "From equestrian riding boots to the universally recognized Oran sandal designed in 1997.",
-    image: "/assets/metier_shoes_sneakers.jpg",
+    image: "/assets/hermes_oran_sandal.jpg",
     established: "1928"
   },
   {
@@ -183,7 +183,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "Chapeaux",
     process: "Felt blocking on linden wood molds, grosgrain ribbon trim, seasonal silk bandings.",
     description: "Equestrian caps, panamas, and cloches designed in historical millinery partnerships.",
-    image: "/assets/metier_hats_chapeaux.jpg",
+    image: "/assets/metier_hat_vauban.jpg",
     established: "1930s"
   },
   {
@@ -201,7 +201,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "Horlogerie",
     process: "In-house mechanical caliber development in Le Noirmont, hand-chamfered bridges, leather straps.",
     description: "Time reimagined as playful poetry—such as the Cape Cod, Arceau, and Hermès H08.",
-    image: "/assets/metier_watches_applewatch.jpg",
+    image: "/assets/metier_watches_horology.jpg",
     established: "1928"
   },
   {
@@ -219,7 +219,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "Beauté",
     process: "Refillable lacquered metal cases designed by Pierre Hardy, custom pigments, beeswax texture.",
     description: "The 16th métier inaugurated in 2020 with Rouge Hermès, combining sustainable metals with luxury.",
-    image: "/assets/metier_beauty_rouge.jpg",
+    image: "/assets/metier_beauty_scandinave.jpg",
     established: "2020"
   },
   {
@@ -236,8 +236,8 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     name: "Tableware",
     frenchName: "Arts de la Table",
     process: "Limoges porcelain manufacturing, 24k gold hand-filing, chromolithographic transfer firing.",
-    description: "Intricately decorated porcelain dinner services featuring botanical and equestrian motifs.",
-    image: "/assets/metier_tableware_soleil.jpg",
+    description: "From the iconic Andalusian wrought-iron latticework of Balcon du Guadalquivir to Soleil d'Hermès, porcelain crafted with exquisite chromolithographic mastery.",
+    image: "/assets/metier_tableware_balcon_guadalquivir.jpg",
     established: "1984"
   },
   {
@@ -255,7 +255,7 @@ export const SIXTEEN_METIERS: MetierItem[] = [
     frenchName: "petit h",
     process: "Reverse creation: artisans and artists design directly from dormant unused workshop remnants.",
     description: "Created in 2010 by Pascale Mussard to give precious unused materials a poetic second life.",
-    image: "/assets/metier_petit_h_creation.jpg",
+    image: "/assets/metier_petit_h_mushroom.jpg",
     established: "2010"
   }
 ];
@@ -299,7 +299,7 @@ export const PRODUCT_ICONS: ProductIconItem[] = [
     tagline: "The maritime anchor link transformed into sculpted silver.",
     story: "While strolling along the Normandy coastline in 1938, Robert Dumas was struck by the functional perfection of the anchor chains mooring boats. He sketched the balanced, pill-shaped interlocking links in solid silver, creating a signature jewellery archetype.",
     detail: "Each silver link is individually cast, hand-assembled, and high-polished to achieve an ergonomic, tactile drape.",
-    image: "/assets/farandole_earrings.jpg"
+    image: "/assets/metier_jewelry_chaine.jpg"
   },
   {
     id: "constance",
@@ -329,7 +329,7 @@ export const PRODUCT_ICONS: ProductIconItem[] = [
     tagline: "Pure minimalism: a barefoot silhouette cut with a single letter 'H'.",
     story: "Conceived by shoe designer Pierre Hardy in 1997 with the idea of a woman walking bare-heeled along Mediterranean sands. The upper is composed of a clean graphic 'H' cut cleanly in box calfskin with raw edges.",
     detail: "Hand-stitched leather sole with a gentle 1.5cm heel, engineered for natural foot flexibility and understated everyday luxury.",
-    image: "/assets/hermes_runway_detail_2.jpg"
+    image: "/assets/hermes_oran_sandal.jpg"
   },
   {
     id: "perfume-terre",

@@ -22,16 +22,17 @@
     font-feature-settings: "liga" 1, "kern" 1;
   }
 
-  /* Hermès Brand Logo / Wordmark preserves original gravure serif */
+  /* Hermès Brand Logo / Wordmark: Memphis geometric slab serif with refined weight and spacing */
   .font-hermes-logo, .brand-logo-hermes {
-    font-family: 'Bodoni Moda', Didot, 'Cinzel', serif;
-    letter-spacing: 0.22em;
+    font-family: 'Memphis Medium', 'Memphis', 'Rockwell', 'Sanchez', 'Arvo', 'Rokkitt', 'Roboto Slab', serif;
+    letter-spacing: 0.05em;
+    font-weight: 600;
   }
 
-  /* Landing Page Distinctive Research Archive Display Grotesk */
+  /* Landing Page Distinctive Architectural Inscriptional Display Serif (Cinzel) */
   .font-archive-display {
-    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
-    letter-spacing: -0.035em;
+    font-family: 'Cinzel', 'Bodoni Moda', serif;
+    letter-spacing: 0.04em;
   }
 
   .font-archive-sans {

@@ -137,7 +137,7 @@ export const FloatingVideo: React.FC = () => {
       id="floating-video-container"
       aria-label="Hermès Documentary Player"
       style={currentStyle}
-      className={`fixed z-40 bg-[#4A2415] text-[#F7F3ED] rounded-2xl shadow-2xl overflow-hidden border border-[#EDE5D9]/30 transition-shadow ${
+      className={`fixed z-[100] bg-[#4A2415] text-[#F7F3ED] rounded-2xl shadow-2xl overflow-hidden border border-[#EDE5D9]/30 transition-shadow ${
         isDragging ? 'shadow-2xl ring-2 ring-[#F37021]/50 cursor-grabbing' : 'shadow-xl'
       } ${isMinimized ? 'w-64 h-11' : sizeClasses[size]}`}
     >

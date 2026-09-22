@@ -61,7 +61,7 @@ export const HermesExperience: React.FC<HermesExperienceProps> = ({
             <span>House Monograph • Paris 1837</span>
           </div>
 
-          <h1 className="font-editorial text-5xl sm:text-7xl lg:text-8xl font-light text-[#4A2415] tracking-tight leading-[1.02]">
+          <h1 className="font-hermes-logo text-5xl sm:text-7xl lg:text-8xl font-semibold text-[#4A2415] tracking-[0.05em] leading-[1.05]">
             HERMÈS
           </h1>
 

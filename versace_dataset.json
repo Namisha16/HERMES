@@ -1,0 +1,578 @@
+{
+  "project": {
+    "name": "The Luxury Archive",
+    "brand": "Versace",
+    "brand_index": 2,
+    "snapshot": "2026-09-22",
+    "status": "research_and_story_structure_frozen"
+  },
+  "audience": {
+    "primary": [
+      "Fashion enthusiasts",
+      "Designers",
+      "Branding/visual communication students",
+      "Luxury followers",
+      "People interested in how luxury brands are built"
+    ],
+    "secondary": [
+      "General audiences curious about luxury fashion"
+    ],
+    "need": "Understand how Versace's visual codes, creative leadership, cultural moments and commercial evolution built the house."
+  },
+  "visual_system": {
+    "mode": "light",
+    "colors": {
+      "black": "#000000",
+      "white": "#FFFFFF",
+      "gold": "#C9A227"
+    },
+    "typography": {
+      "headings": "High-contrast editorial serif",
+      "body": "Clean neutral sans-serif"
+    },
+    "grid": {
+      "desktop": 12,
+      "tablet": 8,
+      "mobile": 4
+    },
+    "principle": "Luxury through restraint, typography, imagery, spacing and interaction quality.",
+    "avoid": [
+      "Excessive gold",
+      "Generic AI luxury aesthetic",
+      "Heavy gradients",
+      "Long text blocks",
+      "Card-heavy layouts",
+      "Over-animation"
+    ]
+  },
+  "brand_identity": {
+    "founded": 1978,
+    "founder": "Gianni Versace",
+    "origin": "Milan, Italy",
+    "promise": "Freedom and fearless self-expression",
+    "equation": "MYTH + GLAMOUR + REBELLION + EXCESS + BODY + CULTURE",
+    "visual_codes": "MEDUSA + GRECA + BAROCCO + GOLD + BLACK + PRINT + SKIN + METAL",
+    "current_creative_chief": "Pieter Mulier",
+    "effective": "2026-07-01"
+  },
+  "story_flow": [
+    "Hero",
+    "Gianni",
+    "The Codes",
+    "The Rise",
+    "The Cultural Machine",
+    "15.07.1997",
+    "Donatella",
+    "Jungle",
+    "The Icons",
+    "The Business of Versace",
+    "The New House",
+    "Versace Now",
+    "The Next Chapter",
+    "Closing"
+  ],
+  "timeline": [
+    [
+      1946,
+      "Gianni Versace born in Reggio Calabria"
+    ],
+    [
+      1978,
+      "Versace founded in Milan"
+    ],
+    [
+      1988,
+      "Greca/Greek Key becomes an established house motif"
+    ],
+    [
+      1991,
+      "Freedom! '90 supermodel finale"
+    ],
+    [
+      1992,
+      "Miss S&M / Bondage collection"
+    ],
+    [
+      1993,
+      "Medusa documented as an official identity element in Italian brand-history material"
+    ],
+    [
+      1994,
+      "Elizabeth Hurley Safety Pin dress moment"
+    ],
+    [
+      1997,
+      "Gianni Versace dies in Miami Beach; Donatella becomes central creative force"
+    ],
+    [
+      2000,
+      "Jennifer Lopez wears the green Jungle Dress at the Grammys"
+    ],
+    [
+      2017,
+      "Gianni tribute / original supermodels"
+    ],
+    [
+      2018,
+      "Capri acquires Versace for approximately €1.83bn"
+    ],
+    [
+      2019,
+      "Jungle Dress returns in Versace SS2020 runway"
+    ],
+    [
+      2021,
+      "La Greca modernises the Greek Key into a continuous monogram"
+    ],
+    [
+      2025,
+      "Donatella exits creative-director role; Prada completes acquisition on Dec 2"
+    ],
+    [
+      2026,
+      "Pieter Mulier becomes Chief Creative Officer effective July 1"
+    ],
+    [
+      2027,
+      "First Mulier collection and planned Atelier Versace relaunch are future strategy"
+    ]
+  ],
+  "brand_codes": [
+    [
+      "Medusa",
+      "Myth / identity"
+    ],
+    [
+      "Greca",
+      "Structure"
+    ],
+    [
+      "Barocco",
+      "Ornament / excess"
+    ],
+    [
+      "Safety Pin",
+      "Rebellion"
+    ],
+    [
+      "Gold",
+      "Opulence"
+    ],
+    [
+      "Body",
+      "Sensuality"
+    ],
+    [
+      "Print",
+      "Visibility"
+    ]
+  ],
+  "creative_eras": [
+    {
+      "period": "1978–1997",
+      "leader": "Gianni Versace",
+      "role": "Created the core Versace language."
+    },
+    {
+      "period": "1997–2025",
+      "leader": "Donatella Versace",
+      "role": "Protected and transformed the language for a new cultural/commercial era."
+    },
+    {
+      "period": "2025–2026",
+      "leader": "Dario Vitale",
+      "role": "Short transitional period."
+    },
+    {
+      "period": "2026–present",
+      "leader": "Pieter Mulier",
+      "role": "New creative chapter; aesthetic transformation is still emerging."
+    }
+  ],
+  "cultural_moments": [
+    [
+      "1991",
+      "Freedom! '90 finale",
+      "Supermodel-era cultural image"
+    ],
+    [
+      "1992",
+      "Miss S&M / Bondage",
+      "Provocative Versace visual language"
+    ],
+    [
+      "1994",
+      "Elizabeth Hurley Safety Pin Dress",
+      "Fashion + celebrity visibility"
+    ],
+    [
+      "2000",
+      "Jennifer Lopez Jungle Dress",
+      "Fashion becoming global pop-cultural memory"
+    ],
+    [
+      "2017",
+      "Gianni Tribute",
+      "Archive reconnects with contemporary Versace"
+    ],
+    [
+      "2019",
+      "Jungle Dress Return",
+      "Archive reactivated for a new audience"
+    ],
+    [
+      "2021–2023",
+      "Dua Lipa / La Vacanza",
+      "Contemporary celebrity collaboration"
+    ]
+  ],
+  "icons": [
+    [
+      "Safety Pin Dress",
+      1994
+    ],
+    [
+      "Chain Mail",
+      "1990s"
+    ],
+    [
+      "Jungle Dress",
+      2000
+    ],
+    [
+      "La Medusa",
+      "Contemporary"
+    ],
+    [
+      "Medusa '95",
+      "1990s code / contemporary product"
+    ],
+    [
+      "Virtus",
+      2019
+    ],
+    [
+      "Greca Goddess",
+      "Contemporary"
+    ],
+    [
+      "Medusa Aevitas",
+      2021
+    ],
+    [
+      "Trigreca",
+      "~2020"
+    ],
+    [
+      "Odissea",
+      "Contemporary"
+    ]
+  ],
+  "product_architecture": {
+    "ready_to_wear": [
+      "Women",
+      "Men",
+      "Tailoring",
+      "Dresses",
+      "Knitwear",
+      "Beachwear",
+      "Denim"
+    ],
+    "leather_goods": [
+      "La Medusa",
+      "Medusa '95",
+      "Virtus",
+      "Greca Goddess"
+    ],
+    "shoes": [
+      "Medusa Aevitas",
+      "Trigreca",
+      "Odissea",
+      "Sandals",
+      "Pumps",
+      "Sneakers"
+    ],
+    "jewellery": [
+      "Medusa",
+      "Greca",
+      "Safety Pin",
+      "Barocco"
+    ],
+    "fragrance": [
+      "Crystal Noir",
+      "Bright Crystal",
+      "Eros",
+      "Dylan Blue"
+    ],
+    "atelier": [
+      "Haute couture",
+      "Red carpet",
+      "Bridal",
+      "Special projects"
+    ],
+    "home": [
+      "Versace Home",
+      "Furniture",
+      "Interiors"
+    ],
+    "hospitality": [
+      "Palazzo Versace"
+    ]
+  },
+  "quantitative": {
+    "capri_fy_revenue_usd": [
+      [
+        2020,
+        843000000
+      ],
+      [
+        2021,
+        718000000
+      ],
+      [
+        2022,
+        1088000000
+      ],
+      [
+        2023,
+        1106000000
+      ],
+      [
+        2024,
+        1030000000
+      ],
+      [
+        2025,
+        821000000
+      ]
+    ],
+    "fy2025": {
+      "revenue_usd": 821000000,
+      "gross_profit_usd": 575000000,
+      "gross_margin": 0.7,
+      "operating_loss_usd": 54000000,
+      "operating_margin": -0.066,
+      "regional_revenue_usd": {
+        "Americas": 260000000,
+        "EMEA": 344000000,
+        "Asia": 217000000
+      },
+      "stores": {
+        "total": 228,
+        "full_price_or_concession": 166,
+        "outlet": 62,
+        "Americas": 46,
+        "EMEA": 51,
+        "Asia": 131
+      }
+    },
+    "prada_era": {
+      "fy2025_net_revenue_eur": 684000000,
+      "h1_2026_net_revenue_eur": 305000000,
+      "q1_2026_net_revenue_eur": 143000000,
+      "q2_2026_derived_eur": 162000000
+    },
+    "transactions": {
+      "capri_2018_eur": 1830000000,
+      "prada_2025_enterprise_value_eur": 1250000000,
+      "prada_2025_enterprise_value_usd": 1375000000,
+      "prada_closing": "2025-12-02"
+    }
+  },
+  "india_price_snapshot_2026_09": {
+    "note": "Time-stamped retail snapshot; prices can change.",
+    "examples": [
+      [
+        "Safety Pin Knit Slip Midi Dress",
+        204500
+      ],
+      [
+        "Viscose Knit Midi Dress",
+        240700
+      ],
+      [
+        "Embellished Stretch Crêpe Jersey Draped Gown",
+        2406900
+      ],
+      [
+        "Safety Pin Necklace",
+        91300
+      ],
+      [
+        "Safety Pin Bracelet",
+        64800
+      ],
+      [
+        "Medusa '95 Small Croc-Effect Top-Handle",
+        332000
+      ],
+      [
+        "Medusa '95 Croc-Effect Top-Handle",
+        390100
+      ],
+      [
+        "La Medusa Mini Canvas Tote",
+        164400
+      ],
+      [
+        "La Medusa Large Leather Tote",
+        247400
+      ],
+      [
+        "La Medusa Leather Top-Handle",
+        356900
+      ],
+      [
+        "Greca Goddess Mini Bag",
+        214200
+      ],
+      [
+        "Trigreca",
+        131200
+      ]
+    ],
+    "fragrance_examples": [
+      [
+        "Crystal Noir EDT 50ml",
+        16000
+      ],
+      [
+        "Crystal Noir Parfum 90ml",
+        29100
+      ],
+      [
+        "Bright Crystal EDT 90ml",
+        19800
+      ],
+      [
+        "Bright Crystal Parfum 50ml",
+        23300
+      ],
+      [
+        "Eros EDT 50ml",
+        14300
+      ],
+      [
+        "Eros EDT 100ml",
+        18000
+      ],
+      [
+        "Eros EDP 100ml",
+        21100
+      ],
+      [
+        "Eros Parfum 100ml",
+        27300
+      ],
+      [
+        "Dylan Blue Pour Homme EDT 100ml",
+        18300
+      ]
+    ]
+  },
+  "current_status": {
+    "owner": "Prada Group",
+    "creative_chief": "Pieter Mulier",
+    "ceo": "Emmanuel Gintzburger",
+    "executive_chairman": "Lorenzo Bertelli",
+    "strategy": [
+      "Quality of topline",
+      "Retail execution",
+      "Channel repositioning",
+      "Collection/product-line assessment",
+      "Integration"
+    ],
+    "future_2027_plus": [
+      "First Pieter Mulier collection",
+      "New aesthetics rooted in original Versace DNA",
+      "Planned Atelier Versace relaunch"
+    ]
+  },
+  "video": {
+    "url": "https://www.youtube.com/watch?v=5U11gCja26A&t=43s",
+    "start_seconds": 43,
+    "component": "floating_archive_video",
+    "behaviour": [
+      "draggable",
+      "minimise",
+      "expand",
+      "close",
+      "sticky"
+    ],
+    "desktop": "lower-right",
+    "mobile": "collapsible bottom dock"
+  },
+  "interactions": {
+    "libraries": [
+      "GSAP",
+      "GSAP ScrollTrigger",
+      "Lenis",
+      "Framer Motion"
+    ],
+    "features": [
+      "Subtle parallax",
+      "Horizontal archive",
+      "Hover/click code reveals",
+      "Jungle Dress 2000/2019 slider",
+      "Animated data visualisation",
+      "Floating video"
+    ]
+  },
+  "image_strategy": {
+    "priority": [
+      "User-provided Excel",
+      "Official Versace",
+      "Authoritative fashion publications/archives",
+      "Reputable secondary sources"
+    ],
+    "rule": "Use authentic historical imagery when available; do not replace documented history with AI-generated fake photographs.",
+    "excel_sources": [
+      "https://www.versace.com/in/en/",
+      "https://www.instagram.com/versace/?hl=en",
+      "https://www.vogue.com/article/exclusive-donatella-versace-is-back-with-a-new-brand",
+      "https://glamobserver.com/the-history-and-evolution-of-versace/",
+      "https://www.istitutomarangoni.com/en/maze35/fashion/its-versace-not-versachee"
+    ]
+  },
+  "ux_rules": {
+    "content_ratio": "image-led; minimal text",
+    "pattern": "IMAGE → YEAR → EVENT → ONE-LINE CONTEXT → NEXT IMAGE",
+    "navigation": [
+      "The Luxury Archive",
+      "Versace",
+      "Archive",
+      "Codes",
+      "Timeline",
+      "Icons",
+      "Now",
+      "Explore Other Houses"
+    ]
+  },
+  "technical": {
+    "stack": "React web app",
+    "responsive": true,
+    "image_optimisation": [
+      "WebP/AVIF",
+      "lazy loading",
+      "responsive sizes"
+    ],
+    "video": [
+      "lazy-load YouTube",
+      "start at 43 seconds",
+      "do not autoplay with sound"
+    ],
+    "accessibility": [
+      "alt text",
+      "keyboard focus",
+      "reduced motion",
+      "sufficient contrast"
+    ]
+  },
+  "source_verification": {
+    "official_versace": "https://www.versace.com/us/en/about-us/company-profile.html",
+    "pieter_mulier": "https://www.pradagroup.com/en/news-media/press-releases-documents/2026/26-02-05-versace-pietermulier-chief-creative-officer.html",
+    "h1_2026": "https://www.pradagroup.com/en/news-media/news-section/26-07-30-pradagroup-h1-2026.html",
+    "acquisition_close": "https://www.pradagroup.com/en/news-media/news-section/25-12-02-pradagroup-versace-closing.html",
+    "acquisition_agreement": "https://www.pradagroup.com/en/news-media/press-releases-documents/2025/25-04-10-prada-group-versace.html"
+  }
+}

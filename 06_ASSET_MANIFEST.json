@@ -1,0 +1,21 @@
+{
+  "status": "flexible_not_frozen",
+  "rule": "Final image selection happens during website implementation.",
+  "priority": [
+    "Excel sources",
+    "Official Versace",
+    "Authoritative fashion archives/publications",
+    "Reputable secondary sources"
+  ],
+  "suggested_folders": [
+    "hero",
+    "gianni",
+    "codes",
+    "rise",
+    "culture",
+    "donatella",
+    "icons",
+    "current"
+  ],
+  "note": "Do not lock image counts. Select only images that strengthen the story."
+}

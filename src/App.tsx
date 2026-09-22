@@ -5,7 +5,7 @@ import { LuxuryLanding } from './components/landing/LuxuryLanding';
 import { HermesExperience } from './components/hermes/HermesExperience';
 
 export const App: React.FC = () => {
-  const [currentView, setCurrentView] = useState<'landing' | 'hermes'>('hermes');
+  const [currentView, setCurrentView] = useState<'landing' | 'hermes'>('landing');
   const [activeSection, setActiveSection] = useState<string>('sec-01');
 
   const handleNavigate = (view: 'landing' | 'hermes', sectionId?: string) => {

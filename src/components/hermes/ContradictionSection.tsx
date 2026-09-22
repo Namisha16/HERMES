@@ -84,7 +84,7 @@ export const ContradictionSection: React.FC = () => {
             <span className="text-xs uppercase tracking-[0.2em] font-semibold text-[#F37021]">
               Phase 0{activeStep + 1}: {steps[activeStep].stage}
             </span>
-            <span className="text-xs font-mono text-[#4A2415]/60">
+            <span className="text-xs font-semibold tracking-wider text-[#4A2415]/70">
               {steps[activeStep].metric}
             </span>
           </div>

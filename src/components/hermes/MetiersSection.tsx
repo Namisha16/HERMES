@@ -25,7 +25,7 @@ export const MetiersSection: React.FC = () => {
           <h2 className="font-editorial text-3xl sm:text-5xl text-[#4A2415] font-light leading-tight">
             “CRAFTSMANSHIP IS NOT DECORATION. IT IS INFRASTRUCTURE.”
           </h2>
-          <p className="text-sm text-[#4A2415]/75 leading-relaxed max-w-xl mx-auto">
+          <p className="text-sm text-[#4A2415]/75 leading-relaxed max-w-xl mx-auto font-light">
             At Hermès, industrial efficiency is intentionally subordinated to hand construction. Every leather artisan is trained for up to two years before touching their first commercial hide.
           </p>
         </div>
@@ -43,7 +43,7 @@ export const MetiersSection: React.FC = () => {
               <div className="text-[11px] sm:text-xs uppercase font-bold tracking-[0.2em] text-[#F37021]">
                 {st.label}
               </div>
-              <div className="text-[11px] text-[#4A2415]/60">
+              <div className="text-[11px] text-[#4A2415]/70 font-light">
                 {st.note}
               </div>
             </div>
@@ -62,7 +62,7 @@ export const MetiersSection: React.FC = () => {
               Ateliers of Creation
             </h3>
           </div>
-          <div className="text-xs text-[#4A2415]/60 italic">
+          <div className="text-xs text-[#4A2415]/70 italic font-light">
             Select any métier to view its artisanal process & history
           </div>
         </div>
@@ -93,7 +93,7 @@ export const MetiersSection: React.FC = () => {
 
                 {/* Content at bottom */}
                 <div className="relative z-10 p-5 text-[#F7F3ED] space-y-2">
-                  <div className="flex items-center justify-between text-[10px] tracking-widest uppercase opacity-80">
+                  <div className="flex items-center justify-between text-[10px] tracking-widest uppercase opacity-80 font-medium">
                     <span>Est. {m.established}</span>
                     <span className="text-[#F37021] font-bold">Métier</span>
                   </div>
@@ -102,11 +102,11 @@ export const MetiersSection: React.FC = () => {
                     {m.name}
                   </h4>
 
-                  <p className="text-xs text-[#EDE5D9]/70 italic">
+                  <p className="text-xs text-[#EDE5D9]/80 italic font-light">
                     {m.frenchName}
                   </p>
 
-                  <div className="pt-2 text-xs text-[#F7F3ED]/90 line-clamp-2 leading-relaxed border-t border-white/10">
+                  <div className="pt-2 text-xs text-[#F7F3ED]/90 line-clamp-2 leading-relaxed border-t border-white/10 font-light">
                     {m.description}
                   </div>
                 </div>
@@ -124,15 +124,15 @@ export const MetiersSection: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between border-b border-[#4A2415]/15 pb-4 gap-2">
               <div>
                 <span className="text-xs uppercase tracking-[0.2em] font-bold text-[#F37021] block mb-2 sm:mb-3">
-                  Métier Spotlight: {selectedMetier.frenchName}
+                  Métier Spotlight: <span className="italic font-semibold">{selectedMetier.frenchName}</span>
                 </span>
                 <h4 className="font-editorial text-2xl sm:text-3xl text-[#4A2415]">
-                  {selectedMetier.name} (Established {selectedMetier.established})
+                  {selectedMetier.name} <span className="text-lg font-normal text-[#4A2415]/70 font-sans">(Established {selectedMetier.established})</span>
                 </h4>
               </div>
               <button
                 onClick={() => setSelectedMetier(null)}
-                className="text-xs uppercase tracking-wider py-1.5 px-4 rounded-full border border-[#4A2415]/20 hover:bg-[#4A2415] hover:text-white transition-colors"
+                className="text-xs uppercase tracking-wider py-1.5 px-4 rounded-full border border-[#4A2415]/20 hover:bg-[#4A2415] hover:text-white transition-colors font-medium"
               >
                 Close Drawer
               </button>
@@ -152,7 +152,7 @@ export const MetiersSection: React.FC = () => {
                   <span className="text-xs uppercase tracking-wider font-semibold text-[#4A2415] block mb-1">
                     Artisanal Process & Hand Techniques:
                   </span>
-                  <p className="text-sm text-[#4A2415] font-medium leading-relaxed bg-[#F7F3ED] p-4 rounded-xl border border-[#D8CEBE]">
+                  <p className="text-sm text-[#4A2415] font-normal leading-relaxed bg-[#F7F3ED] p-4 rounded-xl border border-[#D8CEBE]">
                     {selectedMetier.process}
                   </p>
                 </div>
@@ -161,8 +161,8 @@ export const MetiersSection: React.FC = () => {
                   <span className="text-xs uppercase tracking-wider font-semibold text-[#4A2415] block mb-1">
                     Philosophy:
                   </span>
-                  <p className="text-sm text-[#4A2415]/80 leading-relaxed">
-                    {selectedMetier.description}
+                  <p className="text-sm text-[#4A2415]/85 leading-relaxed font-light italic">
+                    “{selectedMetier.description}”
                   </p>
                 </div>
               </div>

@@ -81,7 +81,7 @@ export const NarrativeStories: React.FC = () => {
               The Kelly: Royalty & Accident
             </h2>
           </div>
-          <div className="text-xs text-[#4A2415]/60 font-mono">
+          <div className="text-xs text-[#4A2415]/70 font-medium tracking-wide">
             Sequential Narrative • 1935–Present
           </div>
         </div>
@@ -102,19 +102,19 @@ export const NarrativeStories: React.FC = () => {
             </div>
 
             <div className="space-y-3">
-              <span className="text-xs uppercase tracking-widest text-[#F37021] font-bold block mb-2 sm:mb-2.5">
+              <span className="text-xs uppercase tracking-widest text-[#F37021] font-semibold block mb-2 sm:mb-2.5">
                 {kellySequence[kellyStep].subtitle}
               </span>
               <h3 className="font-editorial text-2xl sm:text-4xl text-[#4A2415]">
                 {kellySequence[kellyStep].title}
               </h3>
-              <p className="text-sm text-[#4A2415]/85 leading-relaxed">
+              <p className="text-sm sm:text-[15px] text-[#4A2415]/85 leading-relaxed font-light">
                 {kellySequence[kellyStep].text}
               </p>
             </div>
 
             <div className="flex items-center justify-between pt-4 border-t border-[#4A2415]/10">
-              <span className="text-xs text-[#4A2415]/60">Step {kellyStep + 1} of {kellySequence.length}</span>
+              <span className="text-xs font-medium text-[#4A2415]/70">Step {kellyStep + 1} of {kellySequence.length}</span>
               <button
                 onClick={() => setKellyStep((s) => (s + 1) % kellySequence.length)}
                 className="flex items-center gap-2 text-xs uppercase font-semibold tracking-wider text-[#4A2415] hover:text-[#F37021] transition-colors"
@@ -148,7 +148,7 @@ export const NarrativeStories: React.FC = () => {
               The Birkin: The Flight at 35,000 Feet
             </h2>
           </div>
-          <div className="text-xs text-[#4A2415]/60 font-mono">
+          <div className="text-xs text-[#4A2415]/70 font-medium tracking-wide">
             Sequential Narrative • 1984–Present
           </div>
         </div>
@@ -178,19 +178,19 @@ export const NarrativeStories: React.FC = () => {
             </div>
 
             <div className="space-y-3">
-              <span className="text-xs uppercase tracking-widest text-[#F37021] font-bold block mb-2 sm:mb-2.5">
+              <span className="text-xs uppercase tracking-widest text-[#F37021] font-semibold block mb-2 sm:mb-2.5">
                 {birkinSequence[birkinStep].subtitle}
               </span>
               <h3 className="font-editorial text-2xl sm:text-4xl text-[#4A2415]">
                 {birkinSequence[birkinStep].title}
               </h3>
-              <p className="text-sm text-[#4A2415]/85 leading-relaxed">
+              <p className="text-sm sm:text-[15px] text-[#4A2415]/85 leading-relaxed font-light">
                 {birkinSequence[birkinStep].text}
               </p>
             </div>
 
             <div className="flex items-center justify-between pt-4 border-t border-[#4A2415]/10">
-              <span className="text-xs text-[#4A2415]/60">Step {birkinStep + 1} of {birkinSequence.length}</span>
+              <span className="text-xs font-medium text-[#4A2415]/70">Step {birkinStep + 1} of {birkinSequence.length}</span>
               <button
                 onClick={() => setBirkinStep((s) => (s + 1) % birkinSequence.length)}
                 className="flex items-center gap-2 text-xs uppercase font-semibold tracking-wider text-[#4A2415] hover:text-[#F37021] transition-colors"

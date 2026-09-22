@@ -93,7 +93,7 @@ export const DesireVariablesSection: React.FC = () => {
                 }`}
               >
                 <div className="flex items-center justify-between w-full">
-                  <span className="text-[10px] uppercase tracking-widest opacity-70 font-mono">
+                  <span className="text-[10px] uppercase tracking-widest opacity-80 font-semibold">
                     Variable
                   </span>
                   <Icon className={`w-4 h-4 ${isSelected ? 'text-[#F37021]' : 'text-[#4A2415]/60'}`} />
@@ -122,7 +122,7 @@ export const DesireVariablesSection: React.FC = () => {
                   <Icon className="w-4 h-4" />
                   <span>Variable Analysis</span>
                 </div>
-                <span className="text-xs font-mono text-[#4A2415]/60">
+                <span className="text-xs font-semibold tracking-wider text-[#4A2415]/70">
                   Verified Empirical Metric
                 </span>
               </div>

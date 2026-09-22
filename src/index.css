@@ -13,7 +13,7 @@
   body {
     background-color: var(--warm-ivory);
     color: var(--deep-brown);
-    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
     letter-spacing: -0.01em;
   }
 
@@ -35,8 +35,13 @@
     letter-spacing: 0.04em;
   }
 
-  .font-archive-sans {
-    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* Playfair Display for Archive of Object Desire */
+  .font-playfair {
+    font-family: 'Playfair Display', 'Cormorant Garamond', 'Georgia', serif;
+  }
+
+  .font-archive-sans, .font-sans, .font-poppins {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
   }
 }
 

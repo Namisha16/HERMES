@@ -87,7 +87,7 @@ export const HermesExperience: React.FC<HermesExperienceProps> = ({
                 <span className="text-xs uppercase tracking-[0.2em] font-medium">
                   Savoir-Faire & Quiet Mastery • 24, Faubourg Saint-Honoré
                 </span>
-                <span className="hidden sm:inline-block text-xs font-mono text-[#F7F3ED]/70">
+                <span className="hidden sm:inline-block text-xs font-semibold tracking-wider text-[#F7F3ED]/80 uppercase">
                   Documentary Monograph
                 </span>
               </div>
@@ -117,7 +117,7 @@ export const HermesExperience: React.FC<HermesExperienceProps> = ({
                 The Origin: 1837, A Harness Maker in Paris
               </h2>
             </div>
-            <div className="text-xs font-mono text-[#4A2415]/60">
+            <div className="text-xs font-medium tracking-wide text-[#4A2415]/70">
               Rue Basse-du-Rempart, Grands Boulevards
             </div>
           </div>
@@ -130,17 +130,17 @@ export const HermesExperience: React.FC<HermesExperienceProps> = ({
               <h3 className="font-editorial text-2xl sm:text-3xl text-[#4A2415] leading-tight">
                 Engineering for the Thoroughbred
               </h3>
-              <p className="text-sm text-[#4A2415]/85 leading-relaxed">
-                In 1837, Thierry Hermès opened a modest harness workshop on rue Basse-du-Rempart in Paris. Unlike decorative saddlers who weighed down coaches with heavy brass plates, Thierry engineered lightweight, discreet harnesses designed for security, comfort, and speed.
+              <p className="text-sm text-[#4A2415]/85 leading-relaxed font-light">
+                In 1837, Thierry Hermès opened a modest harness workshop on <span className="italic font-normal">rue Basse-du-Rempart</span> in Paris. Unlike decorative saddlers who weighed down coaches with heavy brass plates, Thierry engineered lightweight, discreet harnesses designed for security, comfort, and speed.
               </p>
-              <p className="text-sm text-[#4A2415]/85 leading-relaxed">
-                At the 1867 Exposition Universelle in Paris, Hermès was awarded the prestigious First Class Medal for harness making, solidifying the house’s reputation among European royalty, aristocracy, and racing stables.
+              <p className="text-sm text-[#4A2415]/85 leading-relaxed font-light">
+                At the 1867 <span className="italic">Exposition Universelle</span> in Paris, Hermès was awarded the prestigious <strong className="font-semibold text-[#4A2415]">First Class Medal</strong> for harness making, solidifying the house’s reputation among European royalty, aristocracy, and racing stables.
               </p>
 
-              <div className="pt-2 flex items-center gap-4 text-xs font-semibold text-[#4A2415]">
+              <div className="pt-2 flex items-center gap-4 text-xs font-medium text-[#4A2415]">
                 <div className="flex items-center gap-1.5">
                   <Award className="w-4 h-4 text-[#F37021]" />
-                  <span>1867 Exposition Universelle First Class Medal</span>
+                  <span className="font-semibold">1867 Exposition Universelle First Class Medal</span>
                 </div>
               </div>
             </div>
@@ -167,14 +167,14 @@ export const HermesExperience: React.FC<HermesExperienceProps> = ({
                 The Address: 24 Faubourg Saint-Honoré, 1880
               </h2>
             </div>
-            <div className="text-xs font-mono text-[#4A2415]/60">
+            <div className="text-xs font-medium tracking-wide text-[#4A2415]/70">
               Charles-Émile Hermès Relocation
             </div>
           </div>
 
           <div className="space-y-6">
-            <p className="text-sm sm:text-base text-[#4A2415]/85 max-w-3xl leading-relaxed">
-              In 1880, Thierry's son, Charles-Émile Hermès, moved the workshop closer to his aristocratic clientele at 24 rue du Faubourg Saint-Honoré. He established both the retail boutique and the manufacturing workshops under one roof—a physical anchor that remains the spiritual heartbeat of Hermès to this day.
+            <p className="text-sm sm:text-base text-[#4A2415]/85 max-w-3xl leading-relaxed font-light">
+              In 1880, Thierry's son, <strong className="font-medium text-[#4A2415]">Charles-Émile Hermès</strong>, moved the workshop closer to his aristocratic clientele at <span className="italic font-normal">24 rue du Faubourg Saint-Honoré</span>. He established both the retail boutique and the manufacturing workshops under one roof—a physical anchor that remains the spiritual heartbeat of Hermès to this day.
             </p>
 
             {/* Interactive Before & After Slider */}
@@ -199,7 +199,7 @@ export const HermesExperience: React.FC<HermesExperienceProps> = ({
                 The Thread: 1837 to 2025
               </h2>
             </div>
-            <div className="text-xs font-mono text-[#4A2415]/60">
+            <div className="text-xs font-medium tracking-wide text-[#4A2415]/70">
               26 Historical Milestones
             </div>
           </div>
@@ -219,7 +219,7 @@ export const HermesExperience: React.FC<HermesExperienceProps> = ({
                 From Horse to House: The Identity
               </h2>
             </div>
-            <div className="text-xs font-mono text-[#4A2415]/60">
+            <div className="text-xs font-medium tracking-wide text-[#4A2415]/70">
               Alfred de Dreux Lineage
             </div>
           </div>
@@ -239,7 +239,7 @@ export const HermesExperience: React.FC<HermesExperienceProps> = ({
                 Orange: The Accidental Icon
               </h2>
             </div>
-            <div className="text-xs font-mono text-[#4A2415]/60">
+            <div className="text-xs font-medium tracking-wide text-[#4A2415]/70">
               1942 Wartime Packaging Shortage
             </div>
           </div>

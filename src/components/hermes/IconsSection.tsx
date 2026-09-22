@@ -21,7 +21,7 @@ export const IconsSection: React.FC = () => {
             The Icons of Hermès • Non-Commercial Curatorial Review
           </p>
         </div>
-        <div className="text-xs text-[#4A2415]/70 italic max-w-xs">
+        <div className="text-xs text-[#4A2415]/75 italic max-w-xs font-light">
           Objects created out of genuine functional demand rather than focus groups or marketing trends.
         </div>
       </div>
@@ -44,7 +44,7 @@ export const IconsSection: React.FC = () => {
               <span className="text-xs uppercase tracking-[0.2em] font-semibold text-[#F37021]">
                 {selectedProduct.category} • Circa {selectedProduct.year}
               </span>
-              <span className="text-[11px] px-3 py-1 rounded-full bg-[#4A2415]/10 text-[#4A2415] font-mono font-medium">
+              <span className="text-[11px] px-3 py-1 rounded-full bg-[#4A2415]/10 text-[#4A2415] font-semibold tracking-wider uppercase">
                 Archival Object
               </span>
             </div>
@@ -57,17 +57,17 @@ export const IconsSection: React.FC = () => {
               “{selectedProduct.tagline}”
             </p>
 
-            <p className="text-sm text-[#4A2415]/85 leading-relaxed">
+            <p className="text-sm text-[#4A2415]/85 leading-relaxed font-light">
               {selectedProduct.story}
             </p>
 
             {/* Artisan Craft Detail Box */}
             <div className="p-4 rounded-xl bg-[#F7F3ED] border border-[#D8CEBE] space-y-1">
-              <div className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#4A2415]">
+              <div className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-[#4A2415]">
                 <Shield className="w-3.5 h-3.5 text-[#F37021]" />
                 <span>Artisanal Construction Detail:</span>
               </div>
-              <p className="text-xs text-[#4A2415]/80 leading-relaxed">
+              <p className="text-xs text-[#4A2415]/85 leading-relaxed font-light">
                 {selectedProduct.detail}
               </p>
             </div>
@@ -103,7 +103,7 @@ export const IconsSection: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <div className="text-[10px] opacity-70 truncate font-mono">
+                  <div className="text-[10px] opacity-75 truncate font-medium">
                     {item.year}
                   </div>
                   <div className="text-xs font-bold truncate">

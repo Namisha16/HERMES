@@ -82,14 +82,14 @@ export const RevenueSection: React.FC = () => {
                 </div>
                 <div className="flex items-center gap-4 pt-2">
                   <div>
-                    <div className="text-[10px] text-[#4A2415]/60 uppercase">Turnover</div>
-                    <div className="font-mono text-xl font-bold text-[#4A2415]">
+                    <div className="text-[10px] text-[#4A2415]/60 uppercase font-semibold">Turnover</div>
+                    <div className="text-xl font-bold text-[#4A2415] tracking-tight">
                       €{REVENUE_SECTORS[activeSector].revenueMillions.toLocaleString()}M
                     </div>
                   </div>
                   <div className="border-l border-[#D8CEBE] pl-4">
-                    <div className="text-[10px] text-[#4A2415]/60 uppercase">Share</div>
-                    <div className="font-mono text-xl font-bold text-[#F37021]">
+                    <div className="text-[10px] text-[#4A2415]/60 uppercase font-semibold">Share</div>
+                    <div className="text-xl font-bold text-[#F37021] tracking-tight">
                       {REVENUE_SECTORS[activeSector].percentage}%
                     </div>
                   </div>
@@ -135,10 +135,10 @@ export const RevenueSection: React.FC = () => {
                   </div>
 
                   <div className="flex items-center gap-4">
-                    <span className="text-xs font-mono text-[#4A2415]/80">
+                    <span className="text-xs font-medium text-[#4A2415]/80">
                       €{s.revenueMillions.toLocaleString()}M
                     </span>
-                    <span className="text-xs font-mono font-bold text-[#F37021] w-10 text-right">
+                    <span className="text-xs font-bold text-[#F37021] w-10 text-right">
                       {s.percentage}%
                     </span>
                   </div>

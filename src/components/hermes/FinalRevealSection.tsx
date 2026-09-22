@@ -67,7 +67,7 @@ export const FinalRevealSection: React.FC<FinalRevealSectionProps> = ({ onExplor
                 }`}
               >
                 <div>
-                  <span className={`text-[10px] font-mono uppercase tracking-widest block mb-1 ${
+                  <span className={`text-[10px] font-semibold uppercase tracking-widest block mb-1 ${
                     isDesire ? 'text-white/80' : 'text-[#F37021]'
                   }`}>
                     0{idx + 1}

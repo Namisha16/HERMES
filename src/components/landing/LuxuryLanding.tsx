@@ -42,7 +42,7 @@ export const LuxuryLanding: React.FC<LuxuryLandingProps> = ({ onSelectBrand }) =
       {toastMessage && (
         <div className="fixed bottom-8 right-8 z-50 bg-[#F4EFE6] text-[#1E1915] px-5 py-3.5 rounded-lg shadow-2xl text-xs flex items-center gap-3 border border-[#DDD4C7] animate-fade-in max-w-md">
           <span className="w-2 h-2 rounded-full bg-[#F37021] animate-pulse"></span>
-          <span className="font-mono text-[11px] leading-relaxed text-[#4A3F35]">{toastMessage}</span>
+          <span className="text-[11px] font-medium leading-relaxed text-[#4A3F35]">{toastMessage}</span>
         </div>
       )}
 
@@ -51,22 +51,22 @@ export const LuxuryLanding: React.FC<LuxuryLandingProps> = ({ onSelectBrand }) =
         {/* TOP CURATORIAL MASTHEAD / ARCHIVE HEADER */}
         <header className="border-b border-[#E5DCD0] pb-8 pt-6 flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div className="space-y-2">
-            <div className="flex items-center gap-3 text-[11px] font-mono tracking-widest text-[#7D6F64] uppercase">
+            <div className="flex items-center gap-3 text-[11px] font-semibold tracking-widest text-[#7D6F64] uppercase">
               <span className="inline-block w-2 h-2 rounded-full bg-[#F37021]"></span>
               <span>FOLIO REPOSITORY • LUX-ARCHIVE N° 01</span>
               <span className="text-[#C7BBAE]">/</span>
-              <span>EST. 2026</span>
+              <span className="font-medium text-[#8C7E74]">EST. 2026</span>
             </div>
-            <h2 className="text-xs uppercase tracking-[0.3em] font-medium text-[#6B5E54]">
+            <h2 className="text-xs uppercase tracking-[0.25em] font-semibold text-[#6B5E54]">
               Monograph Series on Modern Luxury Architecture
             </h2>
           </div>
 
-          <div className="flex items-center gap-4 text-xs font-mono text-[#6B5E54]">
-            <span className="px-2.5 py-1 rounded bg-[#F0EAE1] border border-[#DDD4C7]">
+          <div className="flex items-center gap-3 sm:gap-4 text-xs font-semibold text-[#6B5E54]">
+            <span className="px-3 py-1.5 rounded-md bg-[#F0EAE1] border border-[#DDD4C7] tracking-wider">
               CASE STUDIES: 08
             </span>
-            <span className="px-2.5 py-1 rounded bg-[#EDE5D9] border border-[#DDD4C7] text-[#1E1915] font-semibold flex items-center gap-1.5">
+            <span className="px-3 py-1.5 rounded-md bg-[#EDE5D9] border border-[#DDD4C7] text-[#1E1915] font-semibold flex items-center gap-1.5 tracking-wider">
               <span className="w-1.5 h-1.5 rounded-full bg-[#F37021]"></span>
               <span>ACTIVE DOSSIER: [01 / HERMÈS]</span>
             </span>
@@ -78,13 +78,13 @@ export const LuxuryLanding: React.FC<LuxuryLandingProps> = ({ onSelectBrand }) =
           <div className="lg:col-span-7 space-y-8">
             
             <div className="space-y-4">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-[#F0EAE1] border border-[#DDD4C7] text-[11px] font-mono text-[#5C5046] uppercase tracking-wider">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded bg-[#F0EAE1] border border-[#DDD4C7] text-[11px] font-semibold text-[#5C5046] uppercase tracking-wider">
                 <Database className="w-3.5 h-3.5 text-[#8C532B]" />
                 <span>Primary Research Inquiry</span>
               </div>
 
-              {/* Distinctive Architectural Display Heading (Cinzel) */}
-              <h1 className="font-archive-display text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-[#1E1915] leading-[1.05]">
+              {/* Display Heading styled with Playfair Display per user request */}
+              <h1 className="font-playfair text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-[#1E1915] leading-[1.08]">
                 THE ARCHIVE OF OBJECT DESIRE
               </h1>
 
@@ -93,7 +93,7 @@ export const LuxuryLanding: React.FC<LuxuryLandingProps> = ({ onSelectBrand }) =
               </p>
             </div>
 
-            <p className="text-sm sm:text-base text-[#5C5046] leading-relaxed max-w-2xl font-normal">
+            <p className="text-sm sm:text-base text-[#5C5046] leading-relaxed max-w-2xl font-light">
               Why do certain physical objects appreciate in desirability across centuries while consumer technology decays into obsolescence? This archive deconstructs the structural mechanisms of elite European houses through financial reports, primary heritage literature, and artisan ethnography.
             </p>
 
@@ -101,12 +101,12 @@ export const LuxuryLanding: React.FC<LuxuryLandingProps> = ({ onSelectBrand }) =
             <div className="grid grid-cols-2 gap-3 pt-2 max-w-xl">
               {researchIndices.map((idx) => (
                 <div key={idx.code} className="p-3.5 rounded-lg bg-[#F4EFE6] border border-[#DDD4C7] shadow-sm space-y-1 hover:border-[#C4B6A3] transition-colors">
-                  <div className="flex items-center justify-between text-[10px] font-mono text-[#8C532B] font-semibold">
+                  <div className="flex items-center justify-between text-[10px] text-[#8C532B] font-bold tracking-wider">
                     <span>{idx.code}</span>
-                    <span className="text-[#A38A75]">THESIS</span>
+                    <span className="text-[#A38A75] font-semibold">THESIS</span>
                   </div>
                   <div className="text-xs font-semibold text-[#1E1915]">{idx.label}</div>
-                  <div className="text-[11px] text-[#6B5E54] leading-tight line-clamp-2">{idx.desc}</div>
+                  <div className="text-[11px] text-[#6B5E54] leading-relaxed line-clamp-2 font-light">{idx.desc}</div>
                 </div>
               ))}
             </div>
@@ -130,11 +130,11 @@ export const LuxuryLanding: React.FC<LuxuryLandingProps> = ({ onSelectBrand }) =
               
               {/* Archival Classification Header */}
               <div className="flex items-center justify-between border-b border-[#DDD4C7] pb-4">
-                <div className="flex items-center gap-2 text-xs font-mono text-[#5C5046] font-semibold">
+                <div className="flex items-center gap-2 text-xs text-[#5C5046] font-semibold tracking-wider">
                   <FileText className="w-4 h-4 text-[#8C532B]" />
                   <span>DOSSIER-FILE // HERMÈS-01</span>
                 </div>
-                <span className="px-2.5 py-0.5 rounded text-[10px] font-mono bg-[#E8DFD3] text-[#5C5046] border border-[#D5C9B8] font-medium">
+                <span className="px-2.5 py-1 rounded text-[10px] bg-[#E8DFD3] text-[#5C5046] border border-[#D5C9B8] font-bold tracking-wider uppercase">
                   OPEN FOR REVIEW
                 </span>
               </div>
@@ -146,37 +146,37 @@ export const LuxuryLanding: React.FC<LuxuryLandingProps> = ({ onSelectBrand }) =
                   alt="Hermès Saddlery Archival Fragment"
                   className="w-full h-full object-cover contrast-110 hover:scale-105 transition-all duration-700"
                 />
-                <div className="absolute top-3 left-3 px-2 py-1 bg-[#FAF7F2]/90 backdrop-blur-sm rounded text-[9px] font-mono text-[#1E1915] border border-[#DDD4C7]">
+                <div className="absolute top-3 left-3 px-2.5 py-1 bg-[#FAF7F2]/90 backdrop-blur-sm rounded text-[9px] font-semibold tracking-wider text-[#1E1915] border border-[#DDD4C7]">
                   FIG 1.0 // SELLERIE ORIGIN 1837
                 </div>
-                <div className="absolute bottom-3 right-3 px-2 py-1 bg-[#FAF7F2]/90 backdrop-blur-sm rounded text-[9px] font-mono text-[#8C532B] font-semibold border border-[#DDD4C7]">
+                <div className="absolute bottom-3 right-3 px-2.5 py-1 bg-[#FAF7F2]/90 backdrop-blur-sm rounded text-[9px] text-[#8C532B] font-bold tracking-wider border border-[#DDD4C7]">
                   24, FAUBOURG SAINT-HONORÉ
                 </div>
               </div>
 
               {/* Dossier Curatorial Abstract */}
-              <div className="space-y-2 text-xs font-mono text-[#5C5046]">
+              <div className="space-y-2 text-xs text-[#5C5046]">
                 <div className="flex justify-between border-b border-[#E0D7C9] pb-1.5">
-                  <span className="text-[#7D6F64]">REVENUE DISCLOSURE:</span>
-                  <span className="text-[#1E1915] font-medium">€16.0 BILLION (FY2025)</span>
+                  <span className="text-[#7D6F64] font-medium tracking-wide">REVENUE DISCLOSURE:</span>
+                  <span className="text-[#1E1915] font-semibold">€16.0 BILLION (FY2025)</span>
                 </div>
                 <div className="flex justify-between border-b border-[#E0D7C9] pb-1.5">
-                  <span className="text-[#7D6F64]">OPERATING MARGIN:</span>
-                  <span className="text-[#1E1915] font-medium">42.1% RECORD CAPITAL PROFIT</span>
+                  <span className="text-[#7D6F64] font-medium tracking-wide">OPERATING MARGIN:</span>
+                  <span className="text-[#1E1915] font-semibold">42.1% RECORD CAPITAL PROFIT</span>
                 </div>
                 <div className="flex justify-between border-b border-[#E0D7C9] pb-1.5">
-                  <span className="text-[#7D6F64]">ACTIVE MÉTIERS:</span>
-                  <span className="text-[#1E1915] font-medium">16 ARTISANAL CREATION ATELIERS</span>
+                  <span className="text-[#7D6F64] font-medium tracking-wide">ACTIVE MÉTIERS:</span>
+                  <span className="text-[#1E1915] font-semibold">16 ARTISANAL CREATION ATELIERS</span>
                 </div>
                 <div className="flex justify-between pb-1">
-                  <span className="text-[#7D6F64]">METHODOLOGY:</span>
-                  <span className="text-[#8C532B] font-semibold">19 HISTORICAL CHAPTERS</span>
+                  <span className="text-[#7D6F64] font-medium tracking-wide">METHODOLOGY:</span>
+                  <span className="text-[#8C532B] font-bold">19 HISTORICAL CHAPTERS</span>
                 </div>
               </div>
 
               <button
                 onClick={() => onSelectBrand('Hermès')}
-                className="w-full py-3 bg-[#E5DCD0] hover:bg-[#DDD2C3] text-[#1E1915] rounded-lg text-xs font-mono uppercase tracking-widest transition-colors flex items-center justify-center gap-2 border border-[#D5C9B8] font-semibold"
+                className="w-full py-3 bg-[#E5DCD0] hover:bg-[#DDD2C3] text-[#1E1915] rounded-lg text-xs uppercase tracking-widest transition-colors flex items-center justify-center gap-2 border border-[#D5C9B8] font-bold"
               >
                 <span>Open Complete Dossier</span>
                 <ChevronRight className="w-3.5 h-3.5 text-[#F37021]" />
@@ -189,7 +189,7 @@ export const LuxuryLanding: React.FC<LuxuryLandingProps> = ({ onSelectBrand }) =
         <section id="archive-index" className="space-y-6 pt-12 border-t border-[#E5DCD0]">
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
             <div>
-              <div className="text-[11px] font-mono text-[#8C532B] uppercase tracking-widest mb-1 flex items-center gap-1.5 font-semibold">
+              <div className="text-[11px] text-[#8C532B] uppercase tracking-widest mb-1.5 flex items-center gap-1.5 font-bold">
                 <Layers className="w-3.5 h-3.5" />
                 <span>TAXONOMIC INDEX</span>
               </div>
@@ -197,7 +197,7 @@ export const LuxuryLanding: React.FC<LuxuryLandingProps> = ({ onSelectBrand }) =
                 Monograph Corpus: 8 Case Studies
               </h2>
             </div>
-            <div className="text-xs font-mono text-[#7D6F64]">
+            <div className="text-xs text-[#7D6F64] font-medium">
               Select a house to inspect research status
             </div>
           </div>
@@ -220,12 +220,12 @@ export const LuxuryLanding: React.FC<LuxuryLandingProps> = ({ onSelectBrand }) =
                 >
                   <div>
                     {/* Top Metadata */}
-                    <div className="flex items-center justify-between text-[10px] font-mono text-[#7D6F64] mb-3">
+                    <div className="flex items-center justify-between text-[10px] text-[#7D6F64] mb-3 font-semibold tracking-wider">
                       <span className="flex items-center gap-1">
                         <Hash className="w-3 h-3 text-[#A38A75]" />
                         <span>FOLIO 0{index + 1}</span>
                       </span>
-                      <span>{b.origin} • {b.founded}</span>
+                      <span className="font-medium">{b.origin} • {b.founded}</span>
                     </div>
 
                     {/* House Title */}
@@ -234,7 +234,7 @@ export const LuxuryLanding: React.FC<LuxuryLandingProps> = ({ onSelectBrand }) =
                     </h3>
 
                     {/* Core Archival Discipline */}
-                    <p className="text-xs text-[#5C5046] leading-relaxed line-clamp-2">
+                    <p className="text-xs text-[#5C5046] leading-relaxed line-clamp-2 font-light">
                       {b.descriptor}
                     </p>
                   </div>
@@ -242,12 +242,12 @@ export const LuxuryLanding: React.FC<LuxuryLandingProps> = ({ onSelectBrand }) =
                   {/* Status Indicator Bar */}
                   <div className="pt-4 mt-4 border-t border-[#E5DCD0] flex items-center justify-between">
                     {isHermes ? (
-                      <span className="inline-flex items-center gap-1.5 text-[11px] font-mono text-[#F37021] font-bold">
+                      <span className="inline-flex items-center gap-1.5 text-[11px] text-[#F37021] font-bold tracking-wider">
                         <CheckCircle2 className="w-3.5 h-3.5 text-[#F37021]" />
                         <span>ACCESSIONED [OPEN]</span>
                       </span>
                     ) : (
-                      <span className="inline-flex items-center gap-1.5 text-[11px] font-mono text-[#8C7E74]">
+                      <span className="inline-flex items-center gap-1.5 text-[11px] text-[#8C7E74] font-medium tracking-wider">
                         <Lock className="w-3.5 h-3.5" />
                         <span>IN PREPARATION</span>
                       </span>
@@ -262,11 +262,11 @@ export const LuxuryLanding: React.FC<LuxuryLandingProps> = ({ onSelectBrand }) =
         </section>
 
         {/* METHODOLOGICAL NOTE FOOTER IN ARCHIVE STYLE */}
-        <footer className="pt-12 pb-6 border-t border-[#E5DCD0] flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-mono text-[#7D6F64]">
-          <div>
+        <footer className="pt-12 pb-6 border-t border-[#E5DCD0] flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-[#7D6F64] font-medium">
+          <div className="tracking-wide">
             RESEARCH ARCHIVE // HARVARD BUSINESS SCHOOL & ÉCOLE DU LOUVRE COMPARATIVE MONOGRAPH
           </div>
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-6 text-[11px] tracking-wider">
             <span>METHODOLOGY: EMPIRICAL & SEMIOTIC</span>
             <span>DATA CURRENT: FY2025</span>
           </div>

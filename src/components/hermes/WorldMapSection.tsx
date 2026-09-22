@@ -259,7 +259,7 @@ export const WorldMapSection: React.FC = () => {
               }`}
             >
               <span>{reg.region.replace(" (excl. Japan)", "").replace(" (excl. France)", "")}</span>
-              <span className={`ml-1.5 font-mono text-[10px] ${isSelected ? "text-[#F37021]" : "text-[#4A2415]/60"}`}>
+              <span className={`ml-1.5 font-semibold text-[10px] ${isSelected ? "text-[#F37021]" : "text-[#4A2415]/60"}`}>
                 {reg.percentage}%
               </span>
             </button>
@@ -275,7 +275,7 @@ export const WorldMapSection: React.FC = () => {
           <div className="relative bg-[#FAF6EE] rounded-2xl p-4 sm:p-5 border border-[#D5C9B8] shadow-[inset_0_2px_12px_rgba(74,36,21,0.06)] flex flex-col justify-between">
             
             {/* Map Header Overlay with Editorial Cartouche */}
-            <div className="flex items-center justify-between text-[11px] text-[#4A2415]/80 font-mono border-b border-[#E3DACB] pb-2.5 mb-3">
+            <div className="flex items-center justify-between text-[11px] text-[#4A2415]/80 font-medium border-b border-[#E3DACB] pb-2.5 mb-3">
               <div className="flex items-center gap-2">
                 <Compass className="w-4 h-4 text-[#F37021]" />
                 <span className="font-editorial text-xs sm:text-sm tracking-wider uppercase text-[#4A2415] font-semibold">
@@ -468,7 +468,7 @@ export const WorldMapSection: React.FC = () => {
                     <span className="font-editorial text-sm font-bold text-[#4A2415] truncate">
                       {activePin.flagship}
                     </span>
-                    <span className="text-[10px] font-mono uppercase px-1.5 py-0.5 rounded bg-[#EDE5D9] text-[#4A2415]/80">
+                    <span className="text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded bg-[#EDE5D9] text-[#4A2415]/80">
                       {activePin.region}
                     </span>
                   </div>
@@ -492,7 +492,7 @@ export const WorldMapSection: React.FC = () => {
             <div className="pt-3 border-t border-[#D8CEBE] mt-3 space-y-2">
               <div className="text-[11px] uppercase font-bold tracking-wider text-[#4A2415]/70 flex items-center justify-between">
                 <span>Conduits Mondiaux & Répartition par Territoire</span>
-                <span className="text-[10px] font-mono text-[#F37021]">Hermès S.A. Financial Disclosures</span>
+                <span className="text-[10px] font-semibold tracking-wide text-[#F37021]">Hermès S.A. Financial Disclosures</span>
               </div>
 
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
@@ -523,7 +523,7 @@ export const WorldMapSection: React.FC = () => {
                           {gw.percent}
                         </span>
                       </div>
-                      <div className="text-[10px] text-[#4A2415]/70 font-mono truncate">{gw.direction}</div>
+                      <div className="text-[10px] text-[#4A2415]/75 font-medium truncate">{gw.direction}</div>
                     </button>
                   );
                 })}
@@ -540,7 +540,7 @@ export const WorldMapSection: React.FC = () => {
         <div className="lg:col-span-5 space-y-3">
           <div className="text-xs uppercase font-bold tracking-wider text-[#4A2415]/70 pb-1 flex items-center justify-between">
             <span>Regional Share of Turnover</span>
-            <span className="text-[10px] font-mono text-[#F37021]">FY2025 Consolidated</span>
+            <span className="text-[10px] font-semibold tracking-wide text-[#F37021]">FY2025 Consolidated</span>
           </div>
 
           {REGIONAL_SALES.map((reg) => {

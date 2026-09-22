@@ -61,7 +61,7 @@ export const InteractiveTimeline: React.FC = () => {
               <Sparkles className="w-3.5 h-3.5" />
               <span>{activeEvent?.category}</span>
             </span>
-            <span className="text-xs text-[#4A2415]/60 font-mono">
+            <span className="text-xs text-[#4A2415]/70 font-medium tracking-wide">
               Milestone {activeEventIndex + 1} of {filteredEvents.length}
             </span>
           </div>
@@ -76,19 +76,19 @@ export const InteractiveTimeline: React.FC = () => {
           </div>
 
           <div className="pt-4 border-t border-[#4A2415]/10 text-xs text-[#4A2415]/70 flex items-center justify-between">
-            <span>Verified against Hermès Primary Heritage Archives</span>
+            <span className="italic font-light">Verified against Hermès Primary Heritage Archives</span>
             <div className="flex items-center gap-2">
               <button
                 disabled={activeEventIndex <= 0}
                 onClick={() => setActiveEventIndex(i => Math.max(0, i - 1))}
-                className="px-3 py-1 rounded bg-[#F7F3ED] text-[#4A2415] border border-[#4A2415]/20 disabled:opacity-40 hover:border-[#F37021]"
+                className="px-3 py-1 rounded bg-[#F7F3ED] text-[#4A2415] border border-[#4A2415]/20 disabled:opacity-40 hover:border-[#F37021] font-medium text-xs transition-colors"
               >
                 Previous
               </button>
               <button
                 disabled={activeEventIndex >= filteredEvents.length - 1}
                 onClick={() => setActiveEventIndex(i => Math.min(filteredEvents.length - 1, i + 1))}
-                className="px-3 py-1 rounded bg-[#F7F3ED] text-[#4A2415] border border-[#4A2415]/20 disabled:opacity-40 hover:border-[#F37021]"
+                className="px-3 py-1 rounded bg-[#F7F3ED] text-[#4A2415] border border-[#4A2415]/20 disabled:opacity-40 hover:border-[#F37021] font-medium text-xs transition-colors"
               >
                 Next
               </button>
@@ -110,13 +110,13 @@ export const InteractiveTimeline: React.FC = () => {
                     : 'hover:bg-[#EDE5D9] text-[#4A2415]/75'
                 }`}
               >
-                <div className={`font-mono font-bold text-sm tracking-wide shrink-0 ${isCurrent ? 'text-[#F37021]' : 'text-[#4A2415]/80'}`}>
+                <div className={`font-bold text-sm tracking-wide shrink-0 ${isCurrent ? 'text-[#F37021]' : 'text-[#4A2415]/80'}`}>
                   {evt.year}
                 </div>
-                <div className="text-xs sm:text-sm leading-relaxed flex-1">
+                <div className={`text-xs sm:text-sm leading-relaxed flex-1 ${isCurrent ? 'font-medium' : 'font-light'}`}>
                   {evt.text}
                 </div>
-                <span className="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded bg-[#4A2415]/5 text-[#4A2415]/60 shrink-0">
+                <span className="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded bg-[#4A2415]/5 text-[#4A2415]/60 shrink-0 font-medium">
                   {evt.category}
                 </span>
               </div>

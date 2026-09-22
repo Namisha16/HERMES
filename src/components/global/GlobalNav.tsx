@@ -66,8 +66,8 @@ export const GlobalNav: React.FC<GlobalNavProps> = ({ currentView, onNavigate, a
             onClick={() => onNavigate('landing')}
             className="text-left group focus:outline-none rounded-sm"
           >
-            <div className={`text-[10px] tracking-[0.24em] uppercase font-medium ${
-              isLanding ? 'text-[#7D6F64] font-mono' : 'text-[#4A2415]/70'
+            <div className={`text-[10px] tracking-[0.24em] uppercase font-semibold ${
+              isLanding ? 'text-[#7D6F64]' : 'text-[#4A2415]/70'
             }`}>
               {isLanding ? 'RESEARCH ARCHIVE' : 'The Anatomy of Luxury'}
             </div>
@@ -121,7 +121,7 @@ export const GlobalNav: React.FC<GlobalNavProps> = ({ currentView, onNavigate, a
         <div className="flex items-center space-x-3">
           {isLanding ? (
             <div className="flex items-center gap-2">
-              <span className="hidden sm:inline-block text-[11px] font-mono tracking-widest text-[#7D6F64] uppercase">
+              <span className="hidden sm:inline-block text-[11px] font-semibold tracking-widest text-[#7D6F64] uppercase">
                 MONOGRAPH ARCHIVE • VOL. I
               </span>
               <span className="w-1.5 h-1.5 rounded-full bg-[#F37021]"></span>

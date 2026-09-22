@@ -65,7 +65,7 @@ export const SystemNetworkSection: React.FC = () => {
                       : 'bg-[#F7F3ED] hover:bg-white text-[#4A2415] border-[#D8CEBE]'
                   }`}
                 >
-                  <span className={`text-[9px] uppercase tracking-wider font-mono mb-1 ${isSelected ? 'text-[#F37021]' : 'text-[#4A2415]/50'}`}>
+                  <span className={`text-[9px] uppercase tracking-wider font-semibold mb-1 ${isSelected ? 'text-[#F37021]' : 'text-[#4A2415]/60'}`}>
                     Node
                   </span>
                   <span className="text-xs font-bold truncate w-full">
@@ -87,7 +87,7 @@ export const SystemNetworkSection: React.FC = () => {
             <span className="text-xs uppercase tracking-widest font-semibold text-[#F37021]">
               Active System Component
             </span>
-            <span className="text-xs font-mono text-[#4A2415]/60 uppercase">
+            <span className="text-xs font-semibold tracking-wider text-[#4A2415]/70 uppercase">
               Loop Node
             </span>
           </div>
